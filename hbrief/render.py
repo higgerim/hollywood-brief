@@ -88,10 +88,12 @@ def render_caption(content: dict, brand: dict) -> str:
     for s in content["stories"]:
         outlets += [src["name"] for src in s["sources"] if src["name"] not in outlets]
     lines += [f"출처: {', '.join(outlets)}"]
-    credits = [f"{i}. {s['image']['note']}" for i, s in enumerate(content["stories"], 1) if s.get("image")]
+    # 카드에 적힌 짧은 출처를 모아요 (퍼블릭 도메인처럼 표기 의무가 없는 건 빠져요)
+    credits = [f"{i} {s['image']['credit'].removeprefix('Photo: ')}"
+               for i, s in enumerate(content["stories"], 1) if s.get("image") and s["image"].get("credit")]
     if credits:
-        lines += ["이미지: " + " · ".join(credits)]
-    lines += [""]
+        lines += ["📷 " + " | ".join(credits) + " (위키미디어 공용 사진은 일부 잘라서 사용)"]
+    lines += ["", ""]  # 해시태그 앞에 빈 줄
     tags = " ".join("#" + t.lstrip("#").replace(" ", "") for t in content["hashtags"][:25])
     caption = "\n".join(lines) + tags
     return caption[:2200]  # 인스타그램 캡션 최대 길이
