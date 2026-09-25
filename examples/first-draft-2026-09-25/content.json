@@ -28,7 +28,44 @@
           "name": "Just Jared",
           "url": "https://www.justjared.com/2026/09/25/cleveland-lyrics-taylor-swifts-new-song-is-about-travis-kelce-his-hometown-listen-now/"
         }
-      ]
+      ],
+      "image_focus": "people",
+      "image_people": [
+        "Taylor Swift",
+        "Travis Kelce"
+      ],
+      "image_work": {
+        "kind": "album",
+        "title": "The Life of a Showgirl: The Encore",
+        "artist": "Taylor Swift"
+      },
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/1280px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png",
+            "credit": "Photo: iHeartRadioCA / CC BY 3.0",
+            "note": "iHeartRadioCA / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/01a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Travis_Kelce_in_the_Oval_Office_of_the_White_House_on_June_5%2C_2023_-_P20230605AS-0902_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Travis_Kelce_in_the_Oval_Office_of_the_White_House_on_June_5,_2023_-_P20230605AS-0902_(cropped).jpg",
+            "credit": "",
+            "note": "Adam Schultz / Public domain (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/01b.jpg"
+          }
+        ],
+        "credit": "Photo: iHeartRadioCA / CC BY 3.0",
+        "note": "iHeartRadioCA / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용) · Adam Schultz / Public domain (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/01a.jpg",
+        "key": "[\"people\", [\"Taylor Swift\", \"Travis Kelce\"], {\"kind\": \"album\", \"title\": \"The Life of a Showgirl: The Encore\", \"artist\": \"Taylor Swift\"}]"
+      }
     },
     {
       "cluster_id": 6,
@@ -52,7 +89,26 @@
           "name": "Just Jared",
           "url": "https://www.justjared.com/2026/09/24/chadwick-bosemans-widow-taylor-simone-ledward-responds-to-brothers-lawsuit-against-her/"
         }
-      ]
+      ],
+      "image_focus": "people",
+      "image_people": [
+        "Chadwick Boseman"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "image": {
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg/1280px-Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Chadwick_Boseman_by_Gage_Skidmore_July_2017_(cropped).jpg",
+        "credit": "Photo: Gage Skidmore / CC BY-SA 2.0",
+        "note": "Gage Skidmore / CC BY-SA 2.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/02.jpg",
+        "key": "[\"people\", [\"Chadwick Boseman\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
     },
     {
       "cluster_id": 9,
@@ -76,7 +132,27 @@
           "name": "Deadline",
           "url": "https://deadline.com/2026/09/paramont-merger-foes-latest-1237113622/"
         }
-      ]
+      ],
+      "image_focus": "people",
+      "image_people": [
+        "Paramount Skydance",
+        "Warner Bros. Discovery"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "image": {
+        "type": "logo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Paramount_Skydance_Logo.svg/1280px-Paramount_Skydance_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Paramount_Skydance_Logo.svg",
+        "credit": "",
+        "note": "Paramount Skydance Corporation / Public domain (위키미디어 공용)",
+        "portrait": false,
+        "file": "images/03.png",
+        "key": "[\"people\", [\"Paramount Skydance\", \"Warner Bros. Discovery\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
     },
     {
       "cluster_id": 4,
@@ -100,7 +176,44 @@
           "name": "E! News",
           "url": "https://www.eonline.com/news/1436411/amanda-seyfried-reacts-to-elizabeth-holmes-2027-prison-exit?cmpid=rss-syndicate-genericrss-us-top_stories"
         }
-      ]
+      ],
+      "image_focus": "people",
+      "image_people": [
+        "Elizabeth Holmes",
+        "Amanda Seyfried"
+      ],
+      "image_work": {
+        "kind": "tv",
+        "title": "The Dropout",
+        "artist": ""
+      },
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Elizabeth_Holmes_2014_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Elizabeth_Holmes_2014_cropped.jpg",
+            "credit": "Photo: Max Morse for TechCrunch TechCrunch / CC BY 2.0",
+            "note": "Max Morse for TechCrunch TechCrunch / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/04a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Amanda_Seyfried_at_the_83rd_Venice_International_Film_Festival.jpg/1280px-Amanda_Seyfried_at_the_83rd_Venice_International_Film_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Amanda_Seyfried_at_the_83rd_Venice_International_Film_Festival.jpg",
+            "credit": "Photo: LucaFazPhoto / CC BY-SA 4.0",
+            "note": "LucaFazPhoto / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/04b.jpg"
+          }
+        ],
+        "credit": "Photo: Max Morse for TechCrunch TechCrunch / CC BY 2.0 · LucaFazPhoto / CC BY-SA 4.0",
+        "note": "Max Morse for TechCrunch TechCrunch / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용) · LucaFazPhoto / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/04a.jpg",
+        "key": "[\"people\", [\"Elizabeth Holmes\", \"Amanda Seyfried\"], {\"kind\": \"tv\", \"title\": \"The Dropout\", \"artist\": \"\"}]"
+      }
     },
     {
       "cluster_id": 10,
@@ -124,7 +237,26 @@
           "name": "Just Jared",
           "url": "https://www.justjared.com/2026/09/24/hannah-einbinder-speaks-out-after-being-arrested-at-united-nations-protest-calls-israels-netanyahu-the-butcher-of-gaza/"
         }
-      ]
+      ],
+      "image_focus": "people",
+      "image_people": [
+        "Hannah Einbinder"
+      ],
+      "image_work": {
+        "kind": "tv",
+        "title": "Hacks (TV series)",
+        "artist": ""
+      },
+      "image": {
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hannah_Einbinder_at_the_2026_Cannes_Film_Festival-64547_%28cropped%29.jpg/1280px-Hannah_Einbinder_at_the_2026_Cannes_Film_Festival-64547_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Hannah_Einbinder_at_the_2026_Cannes_Film_Festival-64547_(cropped).jpg",
+        "credit": "Photo: Harald Krichel / CC BY-SA 4.0",
+        "note": "Harald Krichel / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/05.jpg",
+        "key": "[\"people\", [\"Hannah Einbinder\"], {\"kind\": \"tv\", \"title\": \"Hacks (TV series)\", \"artist\": \"\"}]"
+      }
     },
     {
       "cluster_id": 12,
@@ -144,7 +276,26 @@
           "name": "The Hollywood Reporter",
           "url": "https://www.hollywoodreporter.com/movies/movie-reviews/unabomber-review-jacob-tremblay-russell-crowe-netflix-1236709412/"
         }
-      ]
+      ],
+      "image_focus": "work",
+      "image_people": [
+        "Russell Crowe",
+        "Jacob Tremblay"
+      ],
+      "image_work": {
+        "kind": "movie",
+        "title": "Unabomber (film)",
+        "artist": ""
+      },
+      "image": {
+        "type": "artwork",
+        "url": "https://upload.wikimedia.org/wikipedia/en/2/20/Unabomber_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://en.wikipedia.org/wiki/File:Unabomber_poster.jpeg",
+        "credit": "공식 포스터 · Unabomber (film)",
+        "note": "'Unabomber (film)' 공식 포스터, 보도·비평 목적 인용",
+        "file": "images/06.jpg",
+        "key": "[\"work\", [\"Russell Crowe\", \"Jacob Tremblay\"], {\"kind\": \"movie\", \"title\": \"Unabomber (film)\", \"artist\": \"\"}]"
+      }
     }
   ],
   "caption_hook": "테일러 스위프트가 결혼하고 처음 낸 신곡, 누구 얘기일까요? 💍",

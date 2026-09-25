@@ -8,6 +8,10 @@
 
 `음악` · ✅ 공식 확인
 
+![테일러 스위프트, 앙코르 앨범에 '남편 헌정곡' 담았다](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/1280px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail) ![테일러 스위프트, 앙코르 앨범에 '남편 헌정곡' 담았다](https://upload.wikimedia.org/wikipedia/commons/f/f5/Travis_Kelce_in_the_Oval_Office_of_the_White_House_on_June_5%2C_2023_-_P20230605AS-0902_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+
+*이미지: iHeartRadioCA / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용) · Adam Schultz / Public domain (위키미디어 공용, 일부 잘라서 사용)*
+
 테일러 스위프트가 앨범 '더 라이프 오브 어 쇼걸(The Life of a Showgirl)'의 확장판 '더 라이프 오브 어 쇼걸: 디 앙코르'를 공개했습니다. 'Patient Zero', 'Cleveland!', 'Pink Clouding', 'Babylon' 4곡이 자정에 함께 나왔습니다.
 
 가장 관심을 받는 곡은 'Cleveland!'입니다. E! 뉴스와 저스트 자레드는 이 곡이 7월 3일 결혼한 남편 트래비스 켈시와 그의 고향을 노래한 곡이라고 전했습니다. 페이지 식스에 따르면 테일러는 가사에서 켈시를 '내 인생의 사랑'이라고 부르며 애정을 숨기지 않았습니다.
@@ -23,6 +27,10 @@
 ## 2. 채드윅 보스만 아내, 시아주버니들 소송에 "흠집내기" 반박
 
 `법정` · 📰 외신 보도
+
+![채드윅 보스만 아내, 시아주버니들 소송에 "흠집내기" 반박](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg/1280px-Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: Gage Skidmore / CC BY-SA 2.0 (위키미디어 공용, 일부 잘라서 사용)*
 
 '블랙 팬서'의 채드윅 보스만이 2020년 세상을 떠난 뒤, 그의 형제들이 아내 테일러 시몬 레드워드를 상대로 소송을 냈습니다. 이번에 레드워드가 변호인을 통해 법원에 공식 답변서를 내면서 반격에 나섰습니다.
 
@@ -40,6 +48,10 @@ TMZ 보도에 따르면 레드워드 측은 형제들의 소송이 자신을 타
 
 `이슈` · 📰 외신 보도
 
+![파라마운트·워너 합병, 시민단체 "법원이 합의 막아야"](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Paramount_Skydance_Logo.svg/1280px-Paramount_Skydance_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: Paramount Skydance Corporation / Public domain (위키미디어 공용)*
+
 파라마운트 스카이댄스가 워너브러더스 디스커버리를 1110억 달러에 인수하는 거래가 마지막 관문에서 다시 제동이 걸렸습니다. 캘리포니아를 비롯한 주 정부들이 반독점 소송을 합의로 마무리하려 하자, 이를 반대하는 쪽이 법원에 의견서를 냈습니다.
 
 버라이어티와 데드라인 보도에 따르면 프리 프레스, 수정헌법 1조 위원회, 언론자유재단 등이 모인 '블록 더 머저(Block the Merger)' 연합이 제3자 의견서(amicus brief)를 내고 법원에 합의를 승인하지 말라고 요청했습니다. 이들은 "이 합병은 경쟁을 약화시킨다"면서, 합의안에 담긴 조건을 캘리포니아 법무장관이 앞서 공개적으로 비판한 적이 있다는 점을 짚었습니다.
@@ -55,6 +67,10 @@ TMZ 보도에 따르면 레드워드 측은 형제들의 소송이 자신을 타
 ## 4. 엘리자베스 홈스 2027년 출소…"피해 투자자 접촉 금지"
 
 `법정` · 📰 외신 보도
+
+![엘리자베스 홈스 2027년 출소…"피해 투자자 접촉 금지"](https://upload.wikimedia.org/wikipedia/commons/d/da/Elizabeth_Holmes_2014_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) ![엘리자베스 홈스 2027년 출소…"피해 투자자 접촉 금지"](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Amanda_Seyfried_at_the_83rd_Venice_International_Film_Festival.jpg/1280px-Amanda_Seyfried_at_the_83rd_Venice_International_Film_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: Max Morse for TechCrunch TechCrunch / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용) · LucaFazPhoto / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)*
 
 혈액 검사 스타트업 테라노스의 창업자 엘리자베스 홈스가 2027년 교도소를 나올 예정입니다. 홈스는 투자자들을 속인 혐의로 징역 11년을 선고받았고, 현재 3년째 복역 중입니다.
 
@@ -72,6 +88,10 @@ E! 뉴스는 드라마 '드롭아웃(The Dropout)'에서 홈스를 연기한 배
 
 `이슈` · ✅ 공식 확인
 
+!['해크스' 해나 아인바인더, 유엔 네타냐후 반대 시위서 체포](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hannah_Einbinder_at_the_2026_Cannes_Film_Festival-64547_%28cropped%29.jpg/1280px-Hannah_Einbinder_at_the_2026_Cannes_Film_Festival-64547_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: Harald Krichel / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)*
+
 HBO 코미디 시리즈 '해크스(Hacks)'의 해나 아인바인더가 미국 뉴욕 유엔 본부 앞 시위에 참여했다가 체포됐습니다. 이 시위는 베냐민 네타냐후 이스라엘 총리의 유엔 연설을 앞두고 열렸습니다.
 
 할리우드 리포터에 따르면 아인바인더는 체포된 뒤 직접 성명을 냈습니다. 저스트 자레드는 아인바인더가 성명에서 네타냐후 총리를 '가자의 도살자'라고 부르며 강하게 비판했다고 전했습니다.
@@ -87,6 +107,10 @@ HBO 코미디 시리즈 '해크스(Hacks)'의 해나 아인바인더가 미국 �
 ## 6. 러셀 크로·제이콥 트렘블레이 '유나바머', 첫 리뷰는 혹평
 
 `영화` · 📰 외신 보도
+
+![러셀 크로·제이콥 트렘블레이 '유나바머', 첫 리뷰는 혹평](https://upload.wikimedia.org/wikipedia/en/2/20/Unabomber_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled)
+
+*이미지: 'Unabomber (film)' 공식 포스터, 보도·비평 목적 인용*
 
 미국을 뒤흔든 연쇄 폭탄 테러범 테드 카진스키의 대학 시절을 다룬 영화 '유나바머(Unabomber)'의 리뷰가 나왔습니다. 야누스 메츠 감독의 심리 실화 스릴러로, 제이콥 트렘블레이와 러셀 크로, 쉐일린 우들리가 출연합니다.
 

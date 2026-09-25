@@ -23,6 +23,11 @@ SYSTEM_PROMPT = """당신은 한국 독자에게 해외 할리우드 소식을 �
 - 인물을 비하하거나 조롱하지 마세요. 가십 톤은 유지하되 사실 전달이 우선입니다.
 - 한국에서 통용되는 표기를 쓰세요 (예: 테일러 스위프트, 티모시 샬라메). 작품명은 한국 공개 제목이 있으면 그것을 씁니다.
 - why_it_matters에는 한국 독자가 "그래서 왜 난리야?"에 답을 얻도록 배경을 설명하세요.
+- 이미지는 소식의 장면에 가장 가까운 것을 고르세요. 사람이 중심인 소식(연애·결혼·소송·체포·발언)은 image_focus를 "people"로,
+  작품 자체가 소식인 경우(신작 공개·리뷰·예고편·흥행)는 "work"로 두세요.
+  예: 테일러 스위프트가 남편에게 바친 신곡 → people, image_people ["Taylor Swift", "Travis Kelce"] (두 사람 사진을 나란히 보여줘요)
+- image_people에는 소식에 등장하는 인물을 중요한 순서로 1~2명 넣으세요. 피해자·미성년자·일반인은 넣지 마세요.
+  인물이 없는 소식이면 회사·단체 이름을 넣으세요.
 """
 
 SCHEMA = {
@@ -46,8 +51,24 @@ SCHEMA = {
                     "why_it_matters": {"type": "string", "description": "왜 화제인지, 80자 이내"},
                     "headline": {"type": "string", "description": "뉴스레터용 제목, 40자 이내"},
                     "body": {"type": "string", "description": "뉴스레터 본문. 2~4개 문단, 문단 사이 빈 줄. 배경·경과·반응 순서"},
+                    "image_focus": {"type": "string", "enum": ["people", "work"], "description": "소식의 장면에 더 가까운 이미지가 인물인지 작품인지"},
+                    "image_people": {
+                        "type": "array", "items": {"type": "string"},
+                        "description": "소식에 등장하는 인물(없으면 회사·단체)의 영어 위키백과 문서 제목 1~2개, 중요한 순서 (예: [\"Taylor Swift\", \"Travis Kelce\"])",
+                    },
+                    "image_work": {
+                        "type": "object",
+                        "description": "소식과 관련된 작품. 신곡·앨범·영화·드라마가 소식에 나올 때만 고르고, 아니면 kind를 none으로",
+                        "properties": {
+                            "kind": {"type": "string", "enum": ["album", "movie", "tv", "none"]},
+                            "title": {"type": "string", "description": "album이면 영어 앨범명, movie·tv면 영어 위키백과 문서 제목 (예: \"Unabomber (film)\"). none이면 빈 문자열"},
+                            "artist": {"type": "string", "description": "album일 때 영어 가수명, 아니면 빈 문자열"},
+                        },
+                        "required": ["kind", "title", "artist"],
+                        "additionalProperties": False,
+                    },
                 },
-                "required": ["cluster_id", "category", "status", "card_title", "points", "why_it_matters", "headline", "body"],
+                "required": ["cluster_id", "category", "status", "card_title", "points", "why_it_matters", "headline", "body", "image_focus", "image_people", "image_work"],
                 "additionalProperties": False,
             },
         },

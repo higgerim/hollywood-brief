@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>{{ content.issue_title }}</title>
+<style>
+  body { max-width: 680px; margin: 0 auto; padding: 32px 20px 80px; font-family: -apple-system, "Apple SD Gothic Neo", "Pretendard", sans-serif; line-height: 1.75; color: #1d1d1f; background: #fff; }
+  .guide { background: #FFF6D6; border: 1px solid #F2C14E; border-radius: 10px; padding: 14px 18px; font-size: 14px; margin-bottom: 36px; }
+  .guide b { color: #B7791F; }
+  h1 { font-size: 28px; line-height: 1.35; }
+  h2 { font-size: 22px; line-height: 1.4; margin-top: 8px; }
+  .meta { color: #6e6e73; font-size: 14px; }
+  img { width: 100%; border-radius: 8px; display: block; }
+  .pair { display: flex; gap: 6px; }
+  .pair img { width: 50%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 25%; }
+  .credit { color: #8e8e93; font-size: 12px; margin: 6px 0 18px; }
+  blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid #F2C14E; background: #FAF8F3; }
+  .sources { font-size: 14px; color: #6e6e73; }
+  hr { border: none; border-top: 1px solid #e5e5ea; margin: 40px 0; }
+</style>
+</head>
+<body>
+<div class="guide"><b>메일리에 옮기는 법</b> — 이 안내 상자 아래부터 끝까지 드래그해서 복사(⌘C)한 뒤, 메일리 에디터 본문에 붙여넣으세요(⌘V). 사진과 링크가 함께 옮겨져요.</div>
+
+<h1>{{ content.issue_title }}</h1>
+<p>{{ content.intro }}</p>
+
+{% for s in content.stories %}
+<hr>
+<h2>{{ loop.index }}. {{ s.headline }}</h2>
+<p class="meta">{{ s.category }} · {{ status_label[s.status] }}</p>
+{% if s.image %}
+  {% if s.image.type == "pair" %}
+  <p class="pair">{% for x in s.image["items"] %}<img src="{{ x.url }}" alt="{{ s.headline }}">{% endfor %}</p>
+  {% else %}
+  <p><img src="{{ s.image.url }}" alt="{{ s.headline }}"></p>
+  {% endif %}
+  <p class="credit">이미지: {{ s.image.note }}</p>
+{% endif %}
+{% for para in s.body.split("\n\n") %}<p>{{ para }}</p>
+{% endfor %}
+<blockquote><b>왜 화제일까?</b> {{ s.why_it_matters }}</blockquote>
+<p class="sources">출처: {% for src in s.sources %}<a href="{{ src.url }}">{{ src.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+{% endfor %}
+
+<hr>
+<p>오늘의 {{ brand.name }}는 여기까지예요. 재밌게 읽으셨다면 친구에게 공유해 주세요! 💌</p>
+<p>인스타그램 {{ brand.instagram_handle }}에서 카드뉴스로도 만나보세요.</p>
+</body>
+</html>

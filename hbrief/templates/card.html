@@ -46,6 +46,41 @@
   .why b { display: block; font-size: 26px; color: var(--gold); letter-spacing: 0.08em; margin-bottom: 12px; }
   .why p { font-size: 34px; line-height: 1.5; }
 
+  /* 표지 썸네일 */
+  .cover li { align-items: center; }
+  .cover li .thumb { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex: none; border: 3px solid #2C2931; }
+  .cover li .thumb.empty { background: var(--panel); }
+  .cover li .thumb.artwork { border-radius: 12px; }
+  .cover li .thumb.logo { object-fit: contain; background: #F6F1E7; padding: 8px; }
+
+  /* 사진이 있는 이슈 카드 */
+  .photo-card { padding: 0; }
+  .hero { position: relative; height: 680px; flex: none; overflow: hidden; }
+  .hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 22%; }
+  .hero::after { content: ""; position: absolute; inset: 0;
+    background: linear-gradient(to bottom, rgba(17,16,19,.7) 0, rgba(17,16,19,0) 22%, rgba(17,16,19,0) 42%, rgba(17,16,19,.85) 78%, var(--bg) 100%); }
+  .hero .top, .hero-text, .credit { position: absolute; z-index: 1; left: 84px; right: 84px; }
+  .hero .top { top: 88px; }
+  .hero-text { bottom: 8px; }
+  .hero-text .head { margin: 0 0 20px; }
+  .hero-text h2 { margin-bottom: 0; text-shadow: 0 2px 24px rgba(0,0,0,.6); }
+  .hero.portrait img { object-position: center 38%; }
+  .hero.artwork .backdrop { filter: blur(40px) brightness(.55); transform: scale(1.2); }
+  .hero.artwork .art { position: absolute; z-index: 1; inset: 130px auto auto 50%; transform: translateX(-50%);
+    width: auto; height: 300px; max-width: 70%; object-fit: contain; border-radius: 12px; box-shadow: 0 24px 60px rgba(0,0,0,.55); }
+  .hero.pair img { width: 50%; }
+  .hero.pair img + img { left: 50%; border-left: 4px solid var(--bg); }
+  .hero.logo { background: #F6F1E7; }
+  .hero.logo img { inset: 150px 160px 300px; width: auto; height: auto; max-width: calc(100% - 320px); max-height: 230px; margin: auto; object-fit: contain; }
+  .hero.logo::after { background: linear-gradient(to bottom, rgba(17,16,19,.9) 0, rgba(17,16,19,0) 20%, rgba(17,16,19,0) 55%, rgba(17,16,19,.9) 80%, var(--bg) 100%); }
+  .credit { text-shadow: 0 1px 6px rgba(0,0,0,.8); }
+  .credit { top: 140px; left: auto; right: 84px; font-size: 18px; color: rgba(246,241,231,.75); text-align: right; max-width: 520px; }
+  .photo-card .body { flex: 1; display: flex; flex-direction: column; padding: 36px 84px 72px; min-height: 0; }
+  .photo-card ul { gap: 16px; margin-bottom: 32px; }
+  .photo-card li { font-size: 36px; }
+  .photo-card .why { padding: 26px 32px; }
+  .photo-card .why p { font-size: 32px; }
+
   /* 마무리 */
   .cta .inner { justify-content: center; }
   .cta h1 { font-size: 96px; line-height: 1.18; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 48px; }
@@ -61,10 +96,36 @@
   <div class="fit"><div class="inner">
     <h1>이번 주<br><em>할리우드</em> 핫이슈</h1>
     <ol>
-      {% for s in stories %}<li><b>{{ "%02d" % loop.index }}</b><span>{{ s.card_title }}</span></li>{% endfor %}
+      {% for s in stories %}<li><b>{{ "%02d" % loop.index }}</b>{% if s.photo %}<img class="thumb {{ s.image.type }}" src="{{ s.photo }}">{% else %}<span class="thumb empty"></span>{% endif %}<span>{{ s.card_title }}</span></li>{% endfor %}
     </ol>
   </div></div>
   <div class="footer"><span>{{ brand.instagram_handle }}</span><span>넘겨서 보기 →</span></div>
+</div>
+{% elif kind == "story" and story.photo %}
+<div class="card story photo-card">
+  <div class="hero {{ story.image.type }}{% if story.image.portrait %} portrait{% endif %}">
+    {% if story.image.type == "artwork" %}<img class="backdrop" src="{{ story.photo }}"><img class="art" src="{{ story.photo }}">{% elif story.image.type == "pair" %}{% for ph in story.photos %}<img src="{{ ph }}">{% endfor %}{% else %}<img src="{{ story.photo }}">{% endif %}
+    <div class="top"><span class="brand">{{ brand.name_en }}</span><span>{{ index }} / {{ total }}</span></div>
+    {% if story.image.credit %}<div class="credit">{{ story.image.credit }}</div>{% endif %}
+    <div class="hero-text">
+      <div class="head">
+        <span class="num">{{ "%02d" % index }}</span>
+        <span class="chip">{{ story.category }}</span>
+        {% if story.status == "루머" %}<span class="chip rumor">미확인 보도</span>{% elif story.status == "보도" %}<span class="chip">외신 보도</span>{% endif %}
+      </div>
+      <h2>{{ story.card_title }}</h2>
+    </div>
+  </div>
+  <div class="body">
+    <div class="fit"><div class="inner">
+      <ul>{% for p in story.points %}<li>{{ p }}</li>{% endfor %}</ul>
+      <div class="why"><b>왜 화제?</b><p>{{ story.why_it_matters }}</p></div>
+    </div></div>
+    <div class="footer">
+      <span>출처 · {{ story.sources[:2] | map(attribute="name") | join(", ") }}{% if story.sources | length > 2 %} 외 {{ story.sources | length - 2 }}곳{% endif %}</span>
+      <span>{{ brand.instagram_handle }}</span>
+    </div>
+  </div>
 </div>
 {% elif kind == "story" %}
 <div class="card story">

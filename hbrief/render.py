@@ -1,6 +1,7 @@
 """content.json으로 카드뉴스 이미지, 뉴스레터 본문, 인스타그램 캡션을 만들어요."""
 from __future__ import annotations
 
+import base64
 import json
 from pathlib import Path
 
@@ -10,11 +11,23 @@ TEMPLATES = Path(__file__).parent / "templates"
 STATUS_LABEL = {"확인됨": "✅ 공식 확인", "보도": "📰 외신 보도", "루머": "⚠️ 미확인 보도"}
 
 
+def _data_uri(path: Path) -> str:
+    data = path.read_bytes()
+    mime = "image/png" if data.startswith(b"\x89PNG") else "image/jpeg"
+    return f"data:{mime};base64,{base64.b64encode(data).decode()}"
+
+
 def render_cards(content: dict, brand: dict, out_dir: Path) -> list[Path]:
     from playwright.sync_api import sync_playwright
 
     template = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=True).get_template("card.html")
-    stories = content["stories"]
+    # 카드 HTML은 파일 경로로 이미지를 못 읽어서 데이터 URI로 넣어요
+    stories = []
+    for s in content["stories"]:
+        img = s.get("image")
+        files = [x["file"] for x in img["items"]] if img and img["type"] == "pair" else [img["file"]] if img else []
+        photos = [_data_uri(out_dir / f) for f in files]
+        stories.append({**s, "photos": photos, "photo": photos[0] if photos else None})
     pages = [{"kind": "cover", "stories": stories}]
     pages += [{"kind": "story", "story": s, "index": i, "total": len(stories)} for i, s in enumerate(stories, 1)]
     pages.append({"kind": "cta"})
@@ -46,6 +59,11 @@ def render_newsletter(content: dict, brand: dict) -> str:
     lines = [f"# {content['issue_title']}", "", content["intro"], ""]
     for i, s in enumerate(content["stories"], 1):
         lines += ["---", "", f"## {i}. {s['headline']}", "", f"`{s['category']}` · {STATUS_LABEL[s['status']]}", ""]
+        if s.get("image"):
+            img = s["image"]
+            urls = [x["url"] for x in img["items"]] if img["type"] == "pair" else [img["url"]]
+            lines += [" ".join(f"![{s['headline']}]({u})" for u in urls), "",
+                      f"*이미지: {img['note']}*", ""]
         lines += [s["body"], ""]
         lines += [f"> **왜 화제일까?** {s['why_it_matters']}", ""]
         links = " · ".join(f"[{src['name']}]({src['url']})" for src in s["sources"])
@@ -53,6 +71,12 @@ def render_newsletter(content: dict, brand: dict) -> str:
     lines += ["---", "", f"오늘의 {brand['name']}는 여기까지예요. 재밌게 읽으셨다면 친구에게 공유해 주세요! 💌", ""]
     lines += [f"인스타그램 {brand['instagram_handle']}에서 카드뉴스로도 만나보세요.", ""]
     return "\n".join(lines)
+
+
+def render_newsletter_html(content: dict, brand: dict) -> str:
+    """메일리 에디터에 복사해 붙여넣는 용도. 브라우저에서 열어 복사하면 사진·링크가 함께 옮겨져요"""
+    template = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=True).get_template("newsletter.html")
+    return template.render(content=content, brand=brand, status_label=STATUS_LABEL)
 
 
 def render_caption(content: dict, brand: dict) -> str:
@@ -63,7 +87,11 @@ def render_caption(content: dict, brand: dict) -> str:
     outlets = []
     for s in content["stories"]:
         outlets += [src["name"] for src in s["sources"] if src["name"] not in outlets]
-    lines += [f"출처: {', '.join(outlets)}", ""]
+    lines += [f"출처: {', '.join(outlets)}"]
+    credits = [f"{i}. {s['image']['note']}" for i, s in enumerate(content["stories"], 1) if s.get("image")]
+    if credits:
+        lines += ["이미지: " + " · ".join(credits)]
+    lines += [""]
     tags = " ".join("#" + t.lstrip("#").replace(" ", "") for t in content["hashtags"][:25])
     caption = "\n".join(lines) + tags
     return caption[:2200]  # 인스타그램 캡션 최대 길이
@@ -78,8 +106,14 @@ def render_preview(content: dict, card_paths: list[Path]) -> str:
 
 
 def render_all(issue_dir: Path, brand: dict, cards: bool = True) -> None:
-    content = json.loads((issue_dir / "content.json").read_text(encoding="utf-8"))
+    from .images import attach_images
+
+    content_path = issue_dir / "content.json"
+    content = json.loads(content_path.read_text(encoding="utf-8"))
+    if attach_images(content, issue_dir):
+        content_path.write_text(json.dumps(content, ensure_ascii=False, indent=2), encoding="utf-8")
     card_paths = render_cards(content, brand, issue_dir) if cards else sorted((issue_dir / "cards").glob("*.jpg"))
     (issue_dir / "newsletter.md").write_text(render_newsletter(content, brand), encoding="utf-8")
+    (issue_dir / "newsletter.html").write_text(render_newsletter_html(content, brand), encoding="utf-8")
     (issue_dir / "caption.txt").write_text(render_caption(content, brand), encoding="utf-8")
     (issue_dir / "README.md").write_text(render_preview(content, card_paths), encoding="utf-8")
