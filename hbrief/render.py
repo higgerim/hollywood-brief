@@ -83,7 +83,7 @@ def render_caption(content: dict, brand: dict) -> str:
     numbers = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣"]
     lines = [content["caption_hook"], ""]
     lines += [f"{numbers[i]} {s['card_title']}" for i, s in enumerate(content["stories"])]
-    lines += ["", "📩 이슈별 배경과 원문 링크는 프로필 링크의 뉴스레터에서 볼 수 있어요.", ""]
+    lines += ["", "📩 이슈별 배경과 원문 링크는 프로필 링크 → 맨 위 최신 글에서 볼 수 있어요.", ""]
     outlets = []
     for s in content["stories"]:
         outlets += [src["name"] for src in s["sources"] if src["name"] not in outlets]
