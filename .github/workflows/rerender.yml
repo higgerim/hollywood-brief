@@ -2,6 +2,8 @@ name: 2. 수정한 원고로 카드 다시 만들기
 
 on:
   pull_request:
+    # PR이 처음 열릴 때는 카드가 이미 만들어져 있어서, 원고를 고친 커밋이 올라올 때만 실행해요
+    types: [synchronize]
     paths:
       - "drafts/**/content.json"
 
