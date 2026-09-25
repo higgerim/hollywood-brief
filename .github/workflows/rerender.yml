@@ -1,0 +1,42 @@
+name: 2. 수정한 원고로 카드 다시 만들기
+
+on:
+  pull_request:
+    paths:
+      - "drafts/**/content.json"
+
+permissions:
+  contents: write
+
+jobs:
+  rerender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 라이브러리 설치
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: 카드·본문 다시 만들기
+        run: |
+          git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'drafts/**/content.json' \
+            | xargs -r -n1 dirname \
+            | xargs -r -n1 python -m hbrief render
+
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add drafts/
+          git diff --cached --quiet || git commit -m "카드·본문 다시 만들기"
+          git push

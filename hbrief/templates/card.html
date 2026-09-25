@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --bg: #111013;
+    --panel: #1C1A20;
+    --text: #F6F1E7;
+    --muted: #A9A39A;
+    --accent: #FF3B5C;
+    --gold: #F2C14E;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "Pretendard", sans-serif;
+    word-break: keep-all; overflow-wrap: anywhere;
+  }
+  .card { width: 1080px; height: 1350px; padding: 88px 84px 72px; display: flex; flex-direction: column; }
+  .top { display: flex; justify-content: space-between; align-items: center; font-size: 26px; letter-spacing: 0.18em; color: var(--muted); font-weight: 600; }
+  .top .brand { color: var(--accent); }
+  .fit { flex: 1; overflow: hidden; }
+  .inner { display: flex; flex-direction: column; min-height: 100%; padding-bottom: 40px; }
+  .footer { display: flex; justify-content: space-between; align-items: flex-end; font-size: 24px; color: var(--muted); padding-top: 32px; border-top: 2px solid #2C2931; }
+
+  /* 표지 */
+  .cover h1 { font-size: 108px; line-height: 1.12; font-weight: 800; margin: 72px 0 56px; letter-spacing: -0.02em; }
+  .cover h1 em { font-style: normal; color: var(--accent); }
+  .cover ol { list-style: none; display: flex; flex-direction: column; gap: 22px; }
+  .cover li { display: flex; gap: 24px; font-size: 38px; font-weight: 600; line-height: 1.3; }
+  .cover li b { color: var(--gold); font-weight: 800; min-width: 52px; }
+
+  /* 이슈 카드 */
+  .head { display: flex; align-items: center; gap: 20px; margin: 56px 0 36px; }
+  .num { font-size: 96px; font-weight: 900; color: var(--accent); line-height: 1; letter-spacing: -0.04em; }
+  .chip { font-size: 26px; font-weight: 700; padding: 10px 22px; border-radius: 999px; background: var(--panel); color: var(--text); }
+  .chip.rumor { background: var(--gold); color: #1A1400; }
+  .story h2 { font-size: 72px; line-height: 1.22; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 48px; }
+  .story ul { list-style: none; display: flex; flex-direction: column; gap: 22px; margin-bottom: 44px; }
+  .story li { font-size: 38px; line-height: 1.45; padding-left: 36px; position: relative; }
+  .story li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); }
+  .why { background: var(--panel); border-left: 8px solid var(--gold); padding: 30px 36px; border-radius: 0 16px 16px 0; margin-top: auto; }
+  .why b { display: block; font-size: 26px; color: var(--gold); letter-spacing: 0.08em; margin-bottom: 12px; }
+  .why p { font-size: 34px; line-height: 1.5; }
+
+  /* 마무리 */
+  .cta .inner { justify-content: center; }
+  .cta h1 { font-size: 96px; line-height: 1.18; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 48px; }
+  .cta h1 em { font-style: normal; color: var(--accent); }
+  .cta p { font-size: 40px; line-height: 1.5; color: var(--muted); }
+  .cta .handle { margin-top: 64px; font-size: 48px; font-weight: 800; color: var(--gold); }
+</style>
+</head>
+<body>
+{% if kind == "cover" %}
+<div class="card cover">
+  <div class="top"><span class="brand">{{ brand.name_en }}</span><span>{{ issue_date }}</span></div>
+  <div class="fit"><div class="inner">
+    <h1>이번 주<br><em>할리우드</em> 핫이슈</h1>
+    <ol>
+      {% for s in stories %}<li><b>{{ "%02d" % loop.index }}</b><span>{{ s.card_title }}</span></li>{% endfor %}
+    </ol>
+  </div></div>
+  <div class="footer"><span>{{ brand.instagram_handle }}</span><span>넘겨서 보기 →</span></div>
+</div>
+{% elif kind == "story" %}
+<div class="card story">
+  <div class="top"><span class="brand">{{ brand.name_en }}</span><span>{{ index }} / {{ total }}</span></div>
+  <div class="fit"><div class="inner">
+    <div class="head">
+      <span class="num">{{ "%02d" % index }}</span>
+      <span class="chip">{{ story.category }}</span>
+      {% if story.status == "루머" %}<span class="chip rumor">미확인 보도</span>{% elif story.status == "보도" %}<span class="chip">외신 보도</span>{% endif %}
+    </div>
+    <h2>{{ story.card_title }}</h2>
+    <ul>{% for p in story.points %}<li>{{ p }}</li>{% endfor %}</ul>
+    <div class="why"><b>왜 화제?</b><p>{{ story.why_it_matters }}</p></div>
+  </div></div>
+  <div class="footer">
+    <span>출처 · {{ story.sources[:2] | map(attribute="name") | join(", ") }}{% if story.sources | length > 2 %} 외 {{ story.sources | length - 2 }}곳{% endif %}</span>
+    <span>{{ brand.instagram_handle }}</span>
+  </div>
+</div>
+{% else %}
+<div class="card cta">
+  <div class="top"><span class="brand">{{ brand.name_en }}</span><span>{{ issue_date }}</span></div>
+  <div class="fit"><div class="inner">
+    <h1>더 깊은 이야기는<br><em>뉴스레터</em>에서</h1>
+    <p>이슈마다 배경과 맥락, 원문 링크까지<br>주 3회 메일로 정리해 드려요.<br>프로필 링크에서 무료 구독하세요.</p>
+    <div class="handle">{{ brand.instagram_handle }}</div>
+  </div></div>
+  <div class="footer"><span>{{ brand.name }}</span><span>저장하고 친구에게 공유하기</span></div>
+</div>
+{% endif %}
+<script>
+  // 글이 길면 넘치지 않을 때까지 글자 크기를 줄여요
+  window.fitText = () => {
+    const box = document.querySelector(".fit");
+    const inner = document.querySelector(".inner");
+    let scale = 1;
+    while (box.scrollHeight > box.clientHeight + 1 && scale > 0.6) {
+      scale -= 0.03;
+      inner.style.zoom = scale;
+    }
+    return scale;
+  };
+</script>
+</body>
+</html>

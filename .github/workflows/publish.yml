@@ -1,0 +1,42 @@
+name: 3. 인스타그램에 게시
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "drafts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish       # 동시에 두 번 게시되지 않게 막아요
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 라이브러리 설치
+        run: pip install requests pyyaml
+
+      - name: 인스타그램 게시
+        run: python -m hbrief publish
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+
+      - name: 게시 기록 저장
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add drafts/
+          git diff --cached --quiet || git commit -m "게시 완료 기록"
+          git push

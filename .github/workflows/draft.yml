@@ -1,0 +1,55 @@
+name: 1. 초안 만들기
+
+on:
+  schedule:
+    - cron: "0 21 * * 0,2,4"   # 한국 시간 월·수·금 오전 6시
+  workflow_dispatch:            # Actions 탭에서 수동 실행
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 라이브러리 설치
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+          npm install -g @anthropic-ai/claude-code
+
+      - name: 기사 수집 → 원고 작성 → 카드 생성
+        id: draft
+        run: python -m hbrief draft
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}   # engine: claude-code (구독)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}               # engine: api (별도 결제)
+
+      - name: 검토용 PR 올리기
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: draft/${{ steps.draft.outputs.issue_date }}
+          add-paths: drafts/
+          commit-message: "초안: ${{ steps.draft.outputs.issue_date }}"
+          title: "[검토] ${{ steps.draft.outputs.issue_date }} — ${{ steps.draft.outputs.issue_title }}"
+          body: |
+            새 초안이 준비됐어요. **Files changed** 탭에서 확인해 주세요.
+
+            **검토 체크리스트**
+            - [ ] 카드 이미지(`cards/`)에 사실과 다른 내용이나 어색한 문장이 없는지
+            - [ ] "루머" 표시가 필요한 이슈에 제대로 붙었는지
+            - [ ] 인물을 비하하거나 선을 넘는 표현이 없는지
+            - [ ] `newsletter.md` 본문과 출처 링크
+
+            **고치는 방법:** `content.json`을 수정해서 커밋하면 카드와 본문이 자동으로 다시 만들어져요.
+            **승인:** Merge 버튼을 누르면 인스타그램에 자동으로 게시돼요.
+            **메일리:** Merge한 뒤 `newsletter.md` 화면에서 본문을 복사해 메일리 에디터에 붙여넣고 발행하세요.
+            **이번 호 건너뛰기:** PR을 닫으세요 (Close).

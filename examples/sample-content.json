@@ -1,0 +1,63 @@
+{
+  "issue_date": "2026-09-28",
+  "issue_title": "[예시] 가상 스타 A의 깜짝 은퇴 선언",
+  "intro": "※ 디자인 확인용 예시 원고예요. 등장인물과 작품은 모두 가상입니다. 이번 호에서는 은퇴 선언부터 시상식 후보 발표까지 여섯 가지 이슈를 정리했어요.",
+  "stories": [
+    {
+      "cluster_id": 1, "category": "이슈", "status": "확인됨",
+      "card_title": "가상 스타 A, 돌연 은퇴 선언",
+      "points": ["본인 SNS에 직접 은퇴 의사를 밝힘", "차기작 촬영은 예정대로 마무리하기로", "팬들 사이에서 건강 문제 추측이 이어짐"],
+      "why_it_matters": "데뷔 20년 차 톱스타의 첫 공식 은퇴 언급이라 업계 전체가 술렁이고 있어요.",
+      "headline": "가상 스타 A, 데뷔 20년 만에 은퇴 선언",
+      "body": "가상 스타 A가 자신의 SNS를 통해 은퇴 의사를 직접 밝혔어요.\n\n촬영 중인 차기작은 예정대로 마무리한다고 덧붙였어요.",
+      "sources": [{"name": "Variety", "url": "https://variety.com/"}, {"name": "Deadline", "url": "https://deadline.com/"}, {"name": "TMZ", "url": "https://www.tmz.com/"}]
+    },
+    {
+      "cluster_id": 2, "category": "음악", "status": "보도",
+      "card_title": "가상 가수 B 새 앨범, 전 남친 저격?",
+      "points": ["신곡 가사 속 이니셜이 화제", "팬들은 과거 연인을 지목하는 중", "소속사는 아직 공식 입장 없음"],
+      "why_it_matters": "가사로 사생활을 암시해 온 가수라 해석 놀이가 SNS 트렌드에 올랐어요.",
+      "headline": "가상 가수 B 신곡 가사, 누구를 겨냥했나",
+      "body": "가상 가수 B의 새 앨범 수록곡 가사가 화제예요.\n\n외신 보도에 따르면 소속사는 아직 입장을 내지 않았어요.",
+      "sources": [{"name": "Page Six", "url": "https://pagesix.com/"}, {"name": "E! News", "url": "https://www.eonline.com/"}]
+    },
+    {
+      "cluster_id": 3, "category": "연애", "status": "루머",
+      "card_title": "가상 배우 C·D 열애설 재점화",
+      "points": ["파리 레스토랑에서 함께 목격됐다는 보도", "양측 모두 확인도 부인도 안 한 상태", "익명 소식통 발 보도라 신중할 필요"],
+      "why_it_matters": "작년 결별설 이후 재결합 여부에 관심이 쏠리고 있어요.",
+      "headline": "가상 배우 C·D, 재결합했나",
+      "body": "익명 소식통을 인용한 보도에 따르면 두 사람이 함께 목격됐다고 해요.\n\n양측은 아직 공식 입장을 내지 않았어요.",
+      "sources": [{"name": "Page Six", "url": "https://pagesix.com/"}]
+    },
+    {
+      "cluster_id": 4, "category": "K-콘텐츠", "status": "확인됨",
+      "card_title": "가상 K-드라마, 할리우드 리메이크 확정",
+      "points": ["미국 대형 스튜디오가 판권 계약", "원작 감독이 제작 총괄로 참여", "내년 상반기 촬영 시작 예정"],
+      "why_it_matters": "K-드라마 리메이크가 대형 스튜디오 주도로 추진되는 건 드문 일이에요.",
+      "headline": "가상 K-드라마, 할리우드 리메이크 확정",
+      "body": "미국 스튜디오가 판권 계약을 공식 발표했어요.\n\n원작 감독이 제작 총괄로 참여해요.",
+      "sources": [{"name": "Deadline", "url": "https://deadline.com/"}, {"name": "The Hollywood Reporter", "url": "https://www.hollywoodreporter.com/"}]
+    },
+    {
+      "cluster_id": 5, "category": "법정", "status": "보도",
+      "card_title": "가상 감독 E, 전 제작사와 소송전",
+      "points": ["미지급 수익 배분을 두고 소 제기", "제작사 측은 계약대로 지급했다고 반박", "첫 재판은 다음 달 열릴 예정"],
+      "why_it_matters": "스트리밍 시대 수익 배분 구조를 둘러싼 첫 대형 소송이라 결과에 관심이 커요.",
+      "headline": "가상 감독 E, 전 제작사 상대로 소송",
+      "body": "법원 기록에 따르면 가상 감독 E가 소송을 제기했어요.\n\n제작사 측은 계약대로 지급했다고 반박했어요.",
+      "sources": [{"name": "The Hollywood Reporter", "url": "https://www.hollywoodreporter.com/"}]
+    },
+    {
+      "cluster_id": 6, "category": "시상식", "status": "확인됨",
+      "card_title": "가상 영화제 후보 발표, 이변 속출",
+      "points": ["흥행작들이 주요 부문에서 대거 탈락", "신인 감독 작품이 최다 후보에 올라", "시상식은 11월 LA에서 열려요"],
+      "why_it_matters": "오스카 레이스의 풍향계로 불리는 시상식이라 예측 판도가 크게 바뀌었어요.",
+      "headline": "가상 영화제 후보 발표, 흥행작 대거 탈락",
+      "body": "가상 영화제가 올해 후보를 발표했어요.\n\n신인 감독 작품이 최다 후보에 올랐어요.",
+      "sources": [{"name": "Variety", "url": "https://variety.com/"}, {"name": "Deadline", "url": "https://deadline.com/"}]
+    }
+  ],
+  "caption_hook": "[예시] 이번 주 할리우드를 뒤흔든 6가지 이슈 🎬",
+  "hashtags": ["할리우드", "해외연예", "연예뉴스", "Hollywood", "카드뉴스"]
+}

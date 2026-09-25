@@ -1,0 +1,6 @@
+anthropic
+feedparser
+jinja2
+playwright
+pyyaml
+requests
