@@ -69,6 +69,15 @@ def cmd_publish(args, config):
         print("게시할 새 초안이 없어요.")
         return
 
+    if not (os.environ.get("IG_USER_ID") and os.environ.get("IG_ACCESS_TOKEN")) and not args.dry_run:
+        # 인스타 연결 전에 승인한 호는 건너뛰었다고 기록해요. 나중에 연결했을 때 지난 호가 한꺼번에 올라가지 않게요.
+        for issue_dir in pending:
+            (issue_dir / "published.json").write_text(
+                json.dumps({"instagram": None, "skipped": "인스타그램 연결 전이라 게시하지 않음"}, ensure_ascii=False, indent=2),
+                encoding="utf-8")
+            print(f"{issue_dir.name}: 인스타그램 연결 전이라 게시를 건너뛰었어요.")
+        return
+
     for issue_dir in pending:
         cards = sorted((issue_dir / "cards").glob("*.jpg"))
         rel = issue_dir.relative_to(ROOT).as_posix()
