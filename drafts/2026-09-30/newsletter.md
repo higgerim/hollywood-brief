@@ -1,0 +1,125 @@
+# 아메리칸 아이돌 출신 가수, 아내 살해 유죄 평결
+
+안녕하세요, 9월의 마지막 할리우드 브리핑이에요! 이번 호에서는 '아메리칸 아이돌' 출신 가수의 살인 유죄 평결부터 브래드 피트의 성을 떼어낸 자하라 졸리, 호불호가 극단적으로 갈린 톰 크루즈 신작 소식까지 모았어요. 딜런 스프라우스 부부의 출산 소식, '왕좌의 게임' 첫 영화 개봉일 발표, 레이디 에이 멤버의 투병 고백도 함께 전해요.
+
+---
+
+## 1. '아메리칸 아이돌' 출신 케일럽 플린, 아내 살해 전 혐의 유죄
+
+`법정` · ✅ 공식 확인
+
+2013년 '아메리칸 아이돌'에 출연했던 케일럽 플린(40)이 아내 애슐리 플린을 살해한 혐의로 재판을 받아 왔어요. 사건은 올해 2월 16일 아침 오하이오주 부부의 집에서 벌어졌고, 플린은 2월에 체포됐어요. 전직 예배 목사이기도 한 그는 재판에서 강도가 저지른 일이라고 주장해 왔어요.
+
+현지 시간 29일 최후 변론이 끝난 뒤 배심원단은 약 2시간 논의 끝에 가중 살인, 폭행, 증거 인멸 등 9개 혐의 모두 유죄라고 판단했어요. 할리우드 리포터는 범행 당시 플린이 외도 중이었다고 전했어요. 평결이 낭독되자 플린은 눈물을 흘린 것으로 알려졌어요.
+
+저스트 재러드 등은 플린이 종신형을 받을 수도 있다고 보도했어요. 재판 내내 레딧 등 온라인에서도 큰 관심을 모은 사건이라, 앞으로 나올 형량 선고에도 관심이 쏠리고 있어요.
+
+> **왜 화제일까?** 오디션 스타 출신 전직 예배 목사가 '강도 짓'이라고 주장했지만, 배심원이 전 혐의 유죄로 판단해 미국에서 크게 주목받고 있어요.
+
+출처: [TMZ](https://www.tmz.com/2026/09/29/caleb-flynn-murder-trial-verdict-reached/) · [Variety](https://variety.com/2026/music/news/caleb-flynn-guilty-murder-wife-american-idol-1236878491/) · [Deadline](https://deadline.com/2026/09/caleb-flynn-guilty-murder-american-idol-1237126780/) · [The Hollywood Reporter](https://www.hollywoodreporter.com/music/music-news/former-american-idol-contestant-guilty-murder-wife-1236714742/) · [Just Jared](https://www.justjared.com/2026/09/29/american-idol-singer-caleb-flynn-found-guilty-of-killing-his-wife-faces-life-in-prison/)
+
+---
+
+## 2. 자하라 졸리, 법적으로 '피트' 성 뗐다… 세 번째 자녀
+
+`이슈` · ✅ 공식 확인
+
+![자하라 졸리, 법적으로 '피트' 성 뗐다… 세 번째 자녀](https://upload.wikimedia.org/wikipedia/commons/a/ad/Angelina_Jolie_2_June_2014_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+
+*이미지: Foreign and Commonwealth Office / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용)*
+
+앤젤리나 졸리와 브래드 피트의 딸 자하라(21)가 법적으로 성을 바꿨어요. 저스트 재러드에 따르면 판사가 자하라의 개명 신청을 승인해서, 이제 성에서 '피트'가 빠지고 '졸리'만 남게 됐어요.
+
+일부 매체는 자하라가 아빠의 성을 법적으로 뗀 세 번째 자녀라고 전했어요. 또 피트가 이번 일을 두고 '(아이들을 아빠에게서) 멀어지게 하려는 캠페인'이라며 속상해한다는 보도도 나왔는데, 피트 측이 공식 입장을 낸 것은 아니에요.
+
+두 사람은 오랫동안 이혼 소송으로 부딪혀 온 만큼, 자녀들의 선택 하나하나가 계속 화제가 되고 있어요. 레딧 연예 게시판에서도 관련 글에 반응이 뜨거웠어요.
+
+> **왜 화제일까?** 세기의 커플이었던 졸리와 피트는 긴 이혼 소송을 거쳤어요. 자녀들이 잇따라 아빠의 성을 떼어내면서 가족 갈등이 다시 화제가 됐어요.
+
+출처: [Just Jared](https://www.justjared.com/2026/09/29/angelina-jolie-brad-pitt-daughter-zahara-officially-drops-pitt-last-name/)
+
+---
+
+## 3. '걸작'과 '불쾌' 사이… 톰 크루즈 '디거'의 파격 광고
+
+`영화` · ✅ 공식 확인
+
+!['걸작'과 '불쾌' 사이… 톰 크루즈 '디거'의 파격 광고](https://upload.wikimedia.org/wikipedia/en/7/7b/Digger_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled)
+
+*이미지: 'Digger (2026 film)' 공식 포스터, 보도·비평 목적 인용*
+
+톰 크루즈의 신작 '디거'가 개봉을 앞두고 호불호 논란에 휩싸였어요. 일부 평에서 '불쾌하다', '당혹스럽다'는 말이 나오면서 부정적인 입소문이 퍼졌어요.
+
+버라이어티에 따르면 워너브러더스는 새 광고로 정면 돌파를 택했어요. 광고 한 장면에 '걸작'과 '불쾌하다'를 나란히 띄우고, '훌륭하다'와 '당혹스럽다', '장엄하다'와 '견디기 힘들다'를 번갈아 보여주면서 관객에게 '직접 판단하라'고 말해요.
+
+'디거'는 미국에서 이번 주말 극장 개봉하고, 바로 스트리밍으로 볼 수는 없는 것으로 알려졌어요. 혹평을 숨기지 않은 이 마케팅이 흥행에 도움이 될지 지켜볼 만해요.
+
+> **왜 화제일까?** 흥행 보증수표 톰 크루즈의 신작에 혹평이 나오자, 배급사가 칭찬과 혹평을 나란히 넣는 이례적인 마케팅을 해서 화제예요.
+
+출처: [Variety](https://variety.com/2026/film/news/digger-negative-reviews-tom-cruise-ad-1236878297/) · [Just Jared](https://www.justjared.com/2026/09/29/is-digger-streaming-where-to-watch-tom-cruises-new-movie-when-it-comes-out/)
+
+---
+
+## 4. 딜런 스프라우스♥바바라 팔빈, 첫딸 얻고 이름 공개
+
+`연애` · ✅ 공식 확인
+
+![딜런 스프라우스♥바바라 팔빈, 첫딸 얻고 이름 공개](https://upload.wikimedia.org/wikipedia/commons/0/05/NYU_Local_chats_with_Dylan_Sprouse_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) ![딜런 스프라우스♥바바라 팔빈, 첫딸 얻고 이름 공개](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MKr382323_Barbara_Palvin_%28Cannes_2025%29.jpg/1280px-MKr382323_Barbara_Palvin_%28Cannes_2025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: NYU Local no Vimeo / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용) · Martin Kraft / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)*
+
+'우리집은 호텔 스위트룸'의 딜런 스프라우스와 빅토리아 시크릿 모델 바바라 팔빈 부부가 첫아이로 딸을 얻었어요. 부부가 직접 출산 소식을 알렸고, E! 뉴스에 따르면 그 다음 날 딜런이 딸의 이름도 공개했어요.
+
+딜런은 아내의 출산을 지켜본 소감으로 "여성이 확실히 더 강한 성"이라고 말했고, 이 말이 레딧 등에서 훈훈하다는 반응을 얻었어요.
+
+오랜 연애 끝에 부부가 된 두 사람의 새 출발에 팬들의 축하가 이어지고 있어요.
+
+> **왜 화제일까?** 디즈니 채널 아역 스타 출신과 빅토리아 시크릿 모델의 조합으로 사랑받아 온 부부라 첫아이 소식에 팬들이 반가워하고 있어요.
+
+출처: [E! News](https://www.eonline.com/news/1436550/dylan-sprouse-reveals-name-of-his-barbara-palvins-baby-girl?cmpid=rss-syndicate-genericrss-us-top_stories)
+
+---
+
+## 5. '왕좌의 게임' 첫 극장판 '아에곤의 정복', 2029년 개봉 확정
+
+`영화` · ✅ 공식 확인
+
+!['왕좌의 게임' 첫 극장판 '아에곤의 정복', 2029년 개봉 확정](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Warner_Bros._Discovery_%28symbol%29.svg/1280px-Warner_Bros._Discovery_%28symbol%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: Warner Bros. Entertainment (Warner Bros. Discovery) / Public domain (위키미디어 공용)*
+
+'왕좌의 게임' 세계관이 드디어 극장으로 가요. 데드라인에 따르면 워너브러더스가 '왕좌의 게임: 아에곤의 정복'의 개봉일을 2029년 6월 1일로 정했어요.
+
+연출은 오언 해리스가 맡고, 각본은 오스카 후보에 올랐던 보 윌리먼이 써요. 영화는 칠왕국을 처음 정복한 아에곤 1세의 이야기를 다루는 것으로 알려졌어요. 출연진과 촬영 시작 시기는 아직 공개되지 않았어요.
+
+데드라인은 워너브러더스가 곧 파라마운트에 인수될 예정이라는 점도 짚었어요. 회사 주인이 바뀌는 시기에 대형 프랜차이즈 영화의 일정을 먼저 박아둔 셈이라 업계의 관심도 커요.
+
+> **왜 화제일까?** 드라마로 세계적인 인기를 끈 '왕좌의 게임'이 처음으로 극장판을 내요. 한국에도 팬이 많아 기대가 커요.
+
+출처: [Deadline](https://deadline.com/2026/09/game-of-thrones-aegons-conquest-release-date-1237116463/) · [Just Jared](https://www.justjared.com/2026/09/29/game-of-thrones-movie-confirmed-what-we-know-about-aegons-conquest-film/)
+
+---
+
+## 6. 레이디 에이 찰스 켈리, 희귀 혈액암 진단 직접 밝혀
+
+`음악` · ✅ 공식 확인
+
+![레이디 에이 찰스 켈리, 희귀 혈액암 진단 직접 밝혀](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Charles_Kelley.jpg/1280px-Charles_Kelley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail) ![레이디 에이 찰스 켈리, 희귀 혈액암 진단 직접 밝혀](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Lady_A_-_Charlotte_12-27-12-39.jpg/1280px-Lady_A_-_Charlotte_12-27-12-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: zqvol / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용) · zqvol / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용)*
+
+컨트리 트리오 레이디 에이의 멤버 찰스 켈리가 혈액암의 한 종류인 다발성 골수종 진단을 받았다고 밝혔어요. 레이디 에이는 켈리와 힐러리 스콧, 데이브 헤이우드가 함께하는 그룹이에요.
+
+켈리는 29일 아내 캐시 매코널과 함께 인스타그램으로 이 소식을 알렸어요. 페이지 식스는 켈리가 건강에 이상 신호를 겪은 뒤 진단을 받았다고 전했어요.
+
+E! 뉴스는 켈리가 지금 팬들의 응원이 필요하다고 전했고, 동료 음악인과 팬들이 쾌유를 비는 메시지를 보내고 있어요.
+
+> **왜 화제일까?** 레이디 에이는 미국 컨트리 음악을 대표하는 3인조예요. 멤버 찰스 켈리가 직접 투병 사실을 밝혀서 팬들의 응원이 쏟아지고 있어요.
+
+출처: [Page Six](https://pagesix.com/2026/09/29/celebrity-news/lady-as-charles-kelley-reveals-rare-blood-cancer-diagnosis-after-alarming-health-scare/) · [E! News](https://www.eonline.com/news/1436563/lady-as-charles-kelley-shares-rare-blood-cancer-diagnosis?cmpid=rss-syndicate-genericrss-us-top_stories) · [Just Jared](https://www.justjared.com/2026/09/29/lady-as-charles-kelley-announces-blood-cancer-diagnosis/)
+
+---
+
+오늘의 할리우드 브리핑는 여기까지예요. 재밌게 읽으셨다면 친구에게 공유해 주세요! 💌
+
+인스타그램 @hollywood.brief에서 카드뉴스로도 만나보세요.
