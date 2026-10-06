@@ -18,18 +18,28 @@ from html import unescape
 from pathlib import Path
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 HEADERS = {"User-Agent": "hollywood-brief/1.0 (https://github.com/higgerim/hollywood-brief)"}
 WIKI_API = "https://en.wikipedia.org/w/api.php"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 ITUNES_API = "https://itunes.apple.com/search"
 # 비상업(NC)·변경금지(ND) 라이선스는 이 목록에 걸리지 않아서 자동으로 빠져요
-FREE_LICENSE = re.compile(r"^(CC BY(-SA)? [\d.]+|CC0|Public domain)$", re.I)
+# "Attribution"은 출처만 밝히면 되는 공용의 자유 라이선스 틀이에요
+FREE_LICENSE = re.compile(r"^(CC BY(-SA)? [\d.]+|CC0|Public domain|Attribution)$", re.I)
 WIDTH = 1200
+# 이보다 작은 이미지는 카드·뉴스레터 폭에 맞춰 늘리면 깨져 보여서 쓰지 않아요
+MIN_WIDTH = 600
+
+# 위키미디어가 요청이 몰릴 때 잠깐 거절(429)하거나 서버 오류를 내도 몇 번 다시 시도해요
+SESSION = requests.Session()
+SESSION.mount("https://", HTTPAdapter(max_retries=Retry(total=4, backoff_factor=2, status_forcelist=(429, 500, 502, 503, 504),
+                                                         respect_retry_after_header=True)))
 
 
 def _get(url: str, **params) -> dict:
-    resp = requests.get(url, params={"format": "json", "formatversion": 2, **params}, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, params={"format": "json", "formatversion": 2, **params}, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     return resp.json()
 
@@ -45,7 +55,7 @@ def _norm(text: str) -> str:
 # ── 1순위: 이슈 자체의 이미지 ──────────────────────────────
 
 def find_album_cover(title: str, artist: str) -> dict | None:
-    resp = requests.get(ITUNES_API, params={"term": f"{artist} {title}", "entity": "album", "limit": 10, "country": "US"},
+    resp = SESSION.get(ITUNES_API, params={"term": f"{artist} {title}", "entity": "album", "limit": 10, "country": "US"},
                         headers=HEADERS, timeout=20)
     resp.raise_for_status()
     # 커버 앨범·피아노 버전 같은 엉뚱한 결과를 피하려고 가수 이름이 맞는 것만 봐요
@@ -73,6 +83,9 @@ def find_poster(wiki_title: str) -> dict | None:
     name, thumb = page.get("pageimage", ""), page.get("thumbnail", {})
     # 작품 문서에 로고만 있는 경우(주로 SVG)는 포스터가 아니라서 건너뛰어요
     if not thumb or name.lower().endswith(".svg") or "logo" in name.lower():
+        return None
+    # 위키백과 포스터는 저작권 규정상 작게(대개 폭 220~300px) 올라가 있어서 대부분 여기서 걸러져요
+    if thumb.get("width", 0) < MIN_WIDTH:
         return None
     return {
         "type": "artwork",
@@ -103,6 +116,8 @@ def _commons_file(info: dict) -> dict | None:
     author = author[:60]
     # SVG는 대부분 로고라서 자르지 않고 통째로 보여줘요 (공용이 PNG로 변환해 줘요)
     is_logo = info["mime"] == "image/svg+xml"
+    if not is_logo and info.get("thumbwidth", info.get("width", 0)) < MIN_WIDTH:
+        return None
     return {
         "type": "logo" if is_logo else "photo",
         "url": info.get("thumburl") or info["url"],
@@ -167,7 +182,15 @@ def _work_image(story: dict) -> dict | None:
 
 def _find_for_story(story: dict) -> dict | None:
     people = [p.strip() for p in story.get("image_people") or [] if p.strip()][:2]
-    singles = [x for x in (find_image(p) for p in people) if x]
+    def safe_find(person):
+        # 한 사람 검색이 실패해도 다른 사람 사진이나 작품 이미지는 계속 찾아요
+        try:
+            return find_image(person)
+        except requests.RequestException as e:
+            print(f"  ⚠️ {person} 사진 검색 실패: {e}")
+            return None
+
+    singles = [x for x in (safe_find(p) for p in people) if x]
     photos = [x for x in singles if x["type"] == "photo"]
 
     def together():
@@ -183,14 +206,18 @@ def _find_for_story(story: dict) -> dict | None:
 
     work = lambda: _work_image(story)  # noqa: E731
     for step in ([work, together] if story.get("image_focus") == "work" else [together, work]):
-        found = step()
+        try:
+            found = step()
+        except requests.RequestException as e:
+            print(f"  ⚠️ 이미지 검색 일부 실패: {e}")
+            continue
         if found:
             return found
     return singles[0] if singles else None
 
 
 def _download(image: dict, path: Path, issue_dir: Path) -> None:
-    resp = requests.get(image["url"], headers=HEADERS, timeout=30)
+    resp = SESSION.get(image["url"], headers=HEADERS, timeout=30)
     resp.raise_for_status()
     path.write_bytes(resp.content)
     image["file"] = path.relative_to(issue_dir).as_posix()

@@ -27,7 +27,9 @@ SYSTEM_PROMPT = """당신은 한국 독자에게 해외 할리우드 소식을 �
   작품 자체가 소식인 경우(신작 공개·리뷰·예고편·흥행)는 "work"로 두세요.
   예: 테일러 스위프트가 남편에게 바친 신곡 → people, image_people ["Taylor Swift", "Travis Kelce"] (두 사람 사진을 나란히 보여줘요)
 - image_people에는 소식에 등장하는 인물을 중요한 순서로 1~2명 넣으세요. 피해자·미성년자·일반인은 넣지 마세요.
-  인물이 없는 소식이면 회사·단체 이름을 넣으세요.
+  작품 중심 소식이라도 주연 배우나 감독·가수를 넣으세요. 작품 이미지를 못 구하면 이 인물 사진을 써요.
+  예: 〈어벤져스: 엔드게임〉 흥행 1위 탈환 → work, image_people ["Robert Downey Jr.", "Chris Evans"]
+  회사·단체 이름은 관련 인물이 정말 없을 때만 넣으세요 (회사 문서 사진은 대개 사옥 건물이라 소식과 안 맞아요).
 """
 
 SCHEMA = {
@@ -54,7 +56,7 @@ SCHEMA = {
                     "image_focus": {"type": "string", "enum": ["people", "work"], "description": "소식의 장면에 더 가까운 이미지가 인물인지 작품인지"},
                     "image_people": {
                         "type": "array", "items": {"type": "string"},
-                        "description": "소식에 등장하는 인물(없으면 회사·단체)의 영어 위키백과 문서 제목 1~2개, 중요한 순서 (예: [\"Taylor Swift\", \"Travis Kelce\"])",
+                        "description": "소식에 등장하는 인물(작품 소식이면 주연·감독, 인물이 정말 없을 때만 회사·단체)의 영어 위키백과 문서 제목 1~2개, 중요한 순서 (예: [\"Taylor Swift\", \"Travis Kelce\"])",
                     },
                     "image_work": {
                         "type": "object",
