@@ -17,7 +17,8 @@
       "body": "〈어벤져스: 엔드게임〉이 다시 전 세계 박스오피스 역대 1위 자리에 올랐어요. Deadline 보도에 따르면 누적 수익은 약 29억 2,550만 달러로, 〈아바타〉의 약 29억 2,370만 달러를 아슬아슬하게 앞섰어요.\n\n이번 역전은 루소 형제가 연출한 2019년 작품을 극장에 다시 건 재개봉 덕분이에요. 루소 형제의 다음 작품인 〈어벤져스: 둠스데이〉가 12월 18일 개봉을 앞두고 있어서, 분위기를 띄우려고 재개봉한 것으로 알려졌어요.\n\n여러 매체가 일제히 이 소식을 전했고, 레딧에서도 관련 글이 큰 관심을 받았어요. 두 작품의 차이가 200만 달러도 안 될 만큼 근소해서, 1위 다툼이 앞으로 또 이어질지도 관심이 모이고 있어요.",
       "image_focus": "work",
       "image_people": [
-        "Marvel Studios"
+        "Robert Downey Jr.",
+        "Chris Evans"
       ],
       "image_work": {
         "kind": "movie",
@@ -39,13 +40,14 @@
         }
       ],
       "image": {
-        "type": "artwork",
-        "url": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "page": "https://en.wikipedia.org/wiki/File:Avengers_Endgame_poster.jpg",
-        "credit": "공식 포스터 · Avengers: Endgame",
-        "note": "'Avengers: Endgame' 공식 포스터, 보도·비평 목적 인용",
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/1280px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:RobertDowneyJr-byPhilipRomano7_(cropped).jpg",
+        "credit": "Photo: PhilipRomano / CC BY-SA 4.0",
+        "note": "PhilipRomano / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
         "file": "images/01.jpg",
-        "key": "[\"work\", [\"Marvel Studios\"], {\"kind\": \"movie\", \"title\": \"Avengers: Endgame\", \"artist\": \"\"}]"
+        "key": "[\"work\", [\"Robert Downey Jr.\", \"Chris Evans\"], {\"kind\": \"movie\", \"title\": \"Avengers: Endgame\", \"artist\": \"\"}]"
       }
     },
     {
@@ -219,7 +221,33 @@
           "url": "https://pagesix.com/2026/10/04/celebrity-news/zach-bryan-breaks-gillette-stadium-record-while-wearing-free-palestine-shirt-for-second-time/"
         }
       ],
-      "image": null
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Zach_Bryan_performing_at_Crypto.com_Arena_on_23_Aug_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Zach_Bryan_performing_at_Crypto.com_Arena_on_23_Aug_2023_(cropped).jpg",
+            "credit": "Photo: Katrina Paisano / Attribution",
+            "note": "Katrina Paisano / Attribution (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": false,
+            "file": "images/04a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Robert_Kraft_52918031556_o_%282%29_%28cropped%29_%28cropped%29.jpg/1280px-Robert_Kraft_52918031556_o_%282%29_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Robert_Kraft_52918031556_o_(2)_(cropped)_(cropped).jpg",
+            "credit": "",
+            "note": "Office of the Governor of Massachusetts / Public domain (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/04b.jpg"
+          }
+        ],
+        "credit": "Photo: Katrina Paisano / Attribution",
+        "note": "Katrina Paisano / Attribution (위키미디어 공용, 일부 잘라서 사용) · Office of the Governor of Massachusetts / Public domain (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/04a.jpg",
+        "key": "[\"people\", [\"Zach Bryan\", \"Robert Kraft\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
     },
     {
       "cluster_id": 4,

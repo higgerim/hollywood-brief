@@ -8,9 +8,9 @@
 
 `영화` · ✅ 공식 확인
 
-![〈어벤져스: 엔드게임〉, 재개봉으로 역대 흥행 1위 탈환](https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled)
+![〈어벤져스: 엔드게임〉, 재개봉으로 역대 흥행 1위 탈환](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/1280px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 
-*이미지: 'Avengers: Endgame' 공식 포스터, 보도·비평 목적 인용*
+*이미지: PhilipRomano / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)*
 
 〈어벤져스: 엔드게임〉이 다시 전 세계 박스오피스 역대 1위 자리에 올랐어요. Deadline 보도에 따르면 누적 수익은 약 29억 2,550만 달러로, 〈아바타〉의 약 29억 2,370만 달러를 아슬아슬하게 앞섰어요.
 
@@ -67,6 +67,10 @@
 ## 4. 잭 브라이언, 'Free Palestine' 티 입고 공연장 관객 신기록
 
 `음악` · ✅ 공식 확인
+
+![잭 브라이언, 'Free Palestine' 티 입고 공연장 관객 신기록](https://upload.wikimedia.org/wikipedia/commons/0/07/Zach_Bryan_performing_at_Crypto.com_Arena_on_23_Aug_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) ![잭 브라이언, 'Free Palestine' 티 입고 공연장 관객 신기록](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Robert_Kraft_52918031556_o_%282%29_%28cropped%29_%28cropped%29.jpg/1280px-Robert_Kraft_52918031556_o_%282%29_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+*이미지: Katrina Paisano / Attribution (위키미디어 공용, 일부 잘라서 사용) · Office of the Governor of Massachusetts / Public domain (위키미디어 공용, 일부 잘라서 사용)*
 
 그래미 수상자인 컨트리 가수 잭 브라이언이 'With Heaven on Tour' 공연에서 로버트 크래프트 소유의 질레트 스타디움 역대 최다 관객 기록을 세웠어요. 버라이어티에 따르면 토요일 공연에 73,538명이 몰려, 이곳에서 열린 모든 행사 가운데 가장 많은 관객이 모였어요.
 
