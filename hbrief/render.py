@@ -103,6 +103,8 @@ def render_preview(content: dict, card_paths: list[Path]) -> str:
     """PR에서 한눈에 검토할 수 있는 미리보기 문서"""
     lines = [f"# {content['issue_date']} 초안 — {content['issue_title']}", "",
              "검토 순서: 카드 이미지 → caption.txt → newsletter.md. 고칠 부분은 **content.json**을 수정하면 이미지가 자동으로 다시 만들어져요.", ""]
+    if content.get("dropped"):
+        lines += ["> 포스터·앨범 커버를 못 구해서 뺀 이슈: " + ", ".join(content["dropped"]), ""]
     lines += [f"<img src=\"cards/{p.name}\" width=\"270\">" for p in card_paths]
     return "\n".join(lines) + "\n"
 

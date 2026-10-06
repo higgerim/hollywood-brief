@@ -44,7 +44,7 @@ jobs:
             새 초안이 준비됐어요. 아래 링크 두 개로 먼저 훑어보세요.
 
             **👀 미리보기 (지금 바로 열려요)**
-            - [카드뉴스 8장 한눈에 보기](https://github.com/${{ github.repository }}/blob/draft/${{ steps.draft.outputs.issue_date }}/drafts/${{ steps.draft.outputs.issue_date }}/README.md)
+            - [카드뉴스 한눈에 보기](https://github.com/${{ github.repository }}/blob/draft/${{ steps.draft.outputs.issue_date }}/drafts/${{ steps.draft.outputs.issue_date }}/README.md)
             - [뉴스레터 미리보기](https://raw.githack.com/${{ github.repository }}/draft/${{ steps.draft.outputs.issue_date }}/drafts/${{ steps.draft.outputs.issue_date }}/newsletter.html)
 
             **검토 체크리스트**

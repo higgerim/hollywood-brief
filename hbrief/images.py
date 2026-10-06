@@ -5,7 +5,8 @@
   2. 등장인물 각자의 사진을 나란히 (예: 테일러 스위프트 | 트래비스 켈시)
   3. 관련 작품 이미지 → 4. 한 사람 사진
 작품 중심 소식(image_focus: work)
-  관련 작품 이미지(앨범 커버·공식 포스터)를 먼저 쓰고, 없으면 위의 인물 사진 순서로 찾아요.
+  관련 작품 이미지(앨범 커버·공식 포스터)만 써요. 쓸 만한 크기가 없으면 인물 사진으로 대신하지 않고
+  초안을 만들 때 그 소식을 빼요 (drop_missing_artwork).
 
 인물 사진은 자유 라이선스(CC BY, CC BY-SA, CC0, 퍼블릭 도메인)만 쓰고, 작품 이미지는 공식 홍보 이미지를
 보도·비평 목적으로 인용해요. 기사에 실린 통신사 사진은 쓰지 않아요. 아무것도 없으면 텍스트 카드로 만들어요.
@@ -205,7 +206,14 @@ def _find_for_story(story: dict) -> dict | None:
         return None
 
     work = lambda: _work_image(story)  # noqa: E731
-    for step in ([work, together] if story.get("image_focus") == "work" else [together, work]):
+    if story.get("image_focus") == "work":
+        try:
+            return work()
+        except requests.RequestException as e:
+            print(f"  ⚠️ 작품 이미지 검색 실패: {e}")
+            return None
+
+    for step in (together, work):
         try:
             found = step()
         except requests.RequestException as e:
@@ -255,3 +263,10 @@ def attach_images(content: dict, issue_dir: Path) -> bool:
         story["image"] = found
         changed = True
     return changed
+
+
+def drop_missing_artwork(content: dict) -> list[dict]:
+    """작품 중심 소식인데 포스터·앨범 커버를 못 구한 이슈를 빼고, 뺀 이슈 목록을 돌려줘요"""
+    dropped = [s for s in content["stories"] if s.get("image_focus") == "work" and not s.get("image")]
+    content["stories"] = [s for s in content["stories"] if s not in dropped]
+    return dropped

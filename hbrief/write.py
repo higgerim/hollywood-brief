@@ -27,9 +27,9 @@ SYSTEM_PROMPT = """당신은 한국 독자에게 해외 할리우드 소식을 �
   작품 자체가 소식인 경우(신작 공개·리뷰·예고편·흥행)는 "work"로 두세요.
   예: 테일러 스위프트가 남편에게 바친 신곡 → people, image_people ["Taylor Swift", "Travis Kelce"] (두 사람 사진을 나란히 보여줘요)
 - image_people에는 소식에 등장하는 인물을 중요한 순서로 1~2명 넣으세요. 피해자·미성년자·일반인은 넣지 마세요.
-  작품 중심 소식이라도 주연 배우나 감독·가수를 넣으세요. 작품 이미지를 못 구하면 이 인물 사진을 써요.
-  예: 〈어벤져스: 엔드게임〉 흥행 1위 탈환 → work, image_people ["Robert Downey Jr.", "Chris Evans"]
   회사·단체 이름은 관련 인물이 정말 없을 때만 넣으세요 (회사 문서 사진은 대개 사옥 건물이라 소식과 안 맞아요).
+- image_focus가 "work"인 소식은 포스터·앨범 커버만 써요. 못 구하면 그 소식은 이번 호에서 빠지니
+  image_work의 제목을 영어 위키백과 문서 제목 그대로 정확히 적으세요.
 """
 
 SCHEMA = {
@@ -56,7 +56,7 @@ SCHEMA = {
                     "image_focus": {"type": "string", "enum": ["people", "work"], "description": "소식의 장면에 더 가까운 이미지가 인물인지 작품인지"},
                     "image_people": {
                         "type": "array", "items": {"type": "string"},
-                        "description": "소식에 등장하는 인물(작품 소식이면 주연·감독, 인물이 정말 없을 때만 회사·단체)의 영어 위키백과 문서 제목 1~2개, 중요한 순서 (예: [\"Taylor Swift\", \"Travis Kelce\"])",
+                        "description": "소식에 등장하는 인물(인물이 정말 없을 때만 회사·단체)의 영어 위키백과 문서 제목 1~2개, 중요한 순서 (예: [\"Taylor Swift\", \"Travis Kelce\"])",
                     },
                     "image_work": {
                         "type": "object",
@@ -106,13 +106,13 @@ def _build_prompt(config: dict, clusters: list[dict], issue_date: str) -> str:
     )
 
 
-def _write_with_claude_code(config: dict, prompt: str) -> dict:
+def _write_with_claude_code(config: dict, prompt: str, schema: dict = SCHEMA) -> dict:
     """Claude 구독 계정으로 Claude Code를 실행해요 (추가 비용 없음, 구독 사용 한도 사용)."""
     cmd = [
         os.environ.get("CLAUDE_BIN", "claude"), "-p",
         "--model", config["claude_code_model"],
         "--system-prompt", SYSTEM_PROMPT,
-        "--json-schema", json.dumps(SCHEMA, ensure_ascii=False),
+        "--json-schema", json.dumps(schema, ensure_ascii=False),
         "--output-format", "json",
         "--tools", "",
         "--no-session-persistence",
@@ -127,7 +127,7 @@ def _write_with_claude_code(config: dict, prompt: str) -> dict:
     return result["structured_output"]
 
 
-def _write_with_api(config: dict, prompt: str) -> dict:
+def _write_with_api(config: dict, prompt: str, schema: dict = SCHEMA) -> dict:
     """Claude API 키로 호출해요 (쓴 만큼 별도 결제)."""
     import anthropic
 
@@ -138,7 +138,7 @@ def _write_with_api(config: dict, prompt: str) -> dict:
         betas=["server-side-fallback-2026-07-01"],
         fallbacks="default",
         thinking={"type": "adaptive"},
-        output_config={"effort": "high", "format": {"type": "json_schema", "schema": SCHEMA}},
+        output_config={"effort": "high", "format": {"type": "json_schema", "schema": schema}},
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -171,3 +171,23 @@ def write_issue(config: dict, clusters: list[dict], issue_date: str) -> dict:
         story["sources"] = list(sources.values())
     content["issue_date"] = issue_date
     return content
+
+
+HEADER_FIELDS = ("issue_title", "intro", "caption_hook", "hashtags")
+HEADER_SCHEMA = {
+    "type": "object",
+    "properties": {k: SCHEMA["properties"][k] for k in HEADER_FIELDS},
+    "required": list(HEADER_FIELDS),
+    "additionalProperties": False,
+}
+
+
+def rewrite_header(config: dict, content: dict) -> None:
+    """이슈를 뺀 뒤 남은 이슈에 맞게 호 제목·인트로·캡션 첫 줄·해시태그를 다시 써요"""
+    stories = "\n".join(f"{i}. [{s['category']}] {s['headline']} — {' / '.join(s['points'])}"
+                         for i, s in enumerate(content["stories"], 1))
+    prompt = (f"발행일: {content['issue_date']}\n"
+              "이번 호에서 일부 이슈가 빠져서 아래 이슈만 남았어요. 남은 이슈에 맞게 issue_title, intro, caption_hook, hashtags를 "
+              "새로 쓰세요. 빠진 이슈 이야기는 넣지 마세요.\n\n" + stories)
+    write = _write_with_api if config["engine"] == "api" else _write_with_claude_code
+    content.update({k: v for k, v in write(config, prompt, HEADER_SCHEMA).items() if k in HEADER_FIELDS})

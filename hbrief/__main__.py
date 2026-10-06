@@ -26,8 +26,9 @@ def load_config() -> dict:
 
 def cmd_draft(args, config):
     from .collect import cluster, collect
+    from .images import attach_images, drop_missing_artwork
     from .render import render_all
-    from .write import write_issue
+    from .write import rewrite_header, write_issue
 
     issue_date = args.date or datetime.now(KST).strftime("%Y-%m-%d")
     issue_dir = DRAFTS / issue_date
@@ -35,18 +36,27 @@ def cmd_draft(args, config):
         sys.exit(f"{issue_dir}에 이미 초안이 있어요.")
     issue_dir.mkdir(parents=True, exist_ok=True)
 
-    print("1/3 기사 수집")
+    print("1/4 기사 수집")
     articles = collect(config)
     clusters = cluster(articles)
     if len(clusters) < config["stories_per_issue"]:
         sys.exit(f"후보 이슈가 {len(clusters)}개뿐이라 초안을 만들지 않았어요.")
     (issue_dir / "candidates.json").write_text(json.dumps(clusters, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"2/3 Claude로 원고 작성 (후보 {len(clusters)}개)")
+    print(f"2/4 Claude로 원고 작성 (후보 {len(clusters)}개)")
     content = write_issue(config, clusters, issue_date)
+
+    print("3/4 이미지 찾기")
+    attach_images(content, issue_dir)
+    dropped = drop_missing_artwork(content)
+    if dropped:
+        for s in dropped:
+            print(f"  '{s['card_title']}'은 포스터·앨범 커버를 못 구해서 뺐어요.")
+        content["dropped"] = [s["card_title"] for s in dropped]
+        rewrite_header(config, content)
     (issue_dir / "content.json").write_text(json.dumps(content, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print("3/3 카드뉴스·뉴스레터 생성")
+    print("4/4 카드뉴스·뉴스레터 생성")
     render_all(issue_dir, config["brand"])
     print(f"완료: {issue_dir}")
     _write_github_output(issue_date=issue_date, issue_title=content["issue_title"])
