@@ -1,0 +1,354 @@
+{
+  "issue_title": "'포스 윙' 주인공 확정 & 배트맨2 감독 교체",
+  "intro": "안녕하세요, 이번 주 할리우드 소식이에요! 드디어 '포스 윙' 드라마의 바이올렛과 젠든이 정해졌고, '더 배트맨 파트 II'는 마지막 촬영을 앞두고 깜짝 구원투수를 맞았어요. 넷플릭스 대규모 인사부터 '미이라' 귀환 소식까지 꽉 채워 준비했어요.",
+  "stories": [
+    {
+      "cluster_id": 1,
+      "category": "드라마",
+      "status": "보도",
+      "card_title": "'포스 윙' 바이올렛·젠든 찾았다",
+      "points": [
+        "프라임 비디오 '포스 윙' 주연 2명 공개돼요",
+        "에스더 맥그리거가 바이올렛 역을 맡아요",
+        "에밀리오 사크라야가 젠든 역으로 합류해요"
+      ],
+      "why_it_matters": "전 세계 로맨타지 열풍을 이끈 베스트셀러 원작이라, 각색 발표 후 3년 가까이 팬들이 캐스팅만 기다려 왔어요.",
+      "headline": "'포스 윙' 드라마, 바이올렛·젠든 역 배우 정해졌어요",
+      "body": "레베카 야로스의 베스트셀러 로맨타지 소설 '포스 윙'을 드라마로 옮기는 아마존 프라임 비디오 시리즈가 드디어 주인공을 찾았어요. 아마존 MGM 스튜디오가 각색을 발표한 지 3년 가까이 지나서 나온 소식이라 팬들의 관심이 뜨거워요.\n\n버라이어티, 데드라인 등의 보도에 따르면 에스더 맥그리거가 바이올렛 소렌게일 역을, 에밀리오 사크라야가 젠든 리오슨 역을 맡는 것으로 알려졌어요. 맥그리거는 아마존 시리즈 '우리는 거짓말쟁이였다'와 영화 '베이비걸'에, 사크라야는 '투 다이 포'(Those About To Die) 등에 출연했어요. 쇼러너이자 총괄 프로듀서는 메리디스 에이버릴이에요.\n\n아마존은 공식 논평을 하지 않았지만, 여러 매체가 동시에 보도하면서 레딧에서도 '드디어 공식 캐스팅'이라며 크게 화제가 됐어요. 원작 속 이미지와 얼마나 잘 맞을지 팬들의 기대와 토론이 이어지고 있어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Esther McGregor",
+        "Emilio Sakraya"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/tv/news/fourth-wing-tv-series-xaden-riorson-emilio-sakraya-1236905893/"
+        },
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/10/xaden-violet-fourth-wing-cast-leads-prime-video-adaptation-1237156221/"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/tv/tv-news/fourth-wing-violet-xaden-esther-mcgregor-emilio-sakraya-1236733258/"
+        },
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1434778/fourth-wing-actors-esther-mcgregor-emilio-sakraya-cast-in-tv-show?cmpid=rss-syndicate-genericrss-us-top_stories"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/10/15/fourth-wing-cast-esther-mcgregor-emilio-sakraya-violet-xaden/"
+        }
+      ],
+      "image": {
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/MKr24325_Emilio_Sakraya_%28NRW-Empfang%2C_Berlinale_2023%29.jpg/1280px-MKr24325_Emilio_Sakraya_%28NRW-Empfang%2C_Berlinale_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MKr24325_Emilio_Sakraya_(NRW-Empfang,_Berlinale_2023).jpg",
+        "credit": "Photo: Martin Kraft / CC BY-SA 4.0",
+        "note": "Martin Kraft / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/01.jpg",
+        "key": "[\"people\", [\"Esther McGregor\", \"Emilio Sakraya\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 2,
+      "category": "영화",
+      "status": "확인됨",
+      "card_title": "배트맨2 촬영장에 소더버그가?",
+      "points": [
+        "맷 리브스 감독이 가족 문제로 자리를 비웠어요",
+        "스티븐 소더버그가 남은 촬영을 돕기로 해요",
+        "리브스는 원격으로 함께 작업한다고 알려졌어요"
+      ],
+      "why_it_matters": "로버트 패틴슨 주연 '더 배트맨' 후속작인데, 거장 감독이 남의 대작 마무리를 돕는 건 할리우드에서도 이례적이라 화제예요.",
+      "headline": "'더 배트맨 파트 II', 스티븐 소더버그가 촬영 마무리 도와요",
+      "body": "DC 스튜디오의 '더 배트맨 파트 II'가 촬영 막바지에 예상치 못한 변화를 맞았어요. 맷 리브스 감독이 진행 중인 가족 문제에 집중하기 위해 자리를 비우면서 제작이 잠시 멈췄었거든요.\n\n버라이어티가 확인한 공식 입장에 따르면, 리브스 감독의 작품을 아끼던 스티븐 소더버그 감독이 먼저 리브스에게 다가갔고, 그의 전적인 동의 아래 남은 몇 주간의 본촬영을 돕기로 했어요. 할리우드 리포터는 리브스가 촬영 재개 후에도 현장에는 나오지 않는다고 전했고, 저스트 재러드는 리브스가 원격으로 함께 작업한다고 보도했어요.\n\n'오션스 일레븐' 등으로 유명한 베테랑 감독이 동료의 작품을 위해 나섰다는 점에서 레딧 반응도 컸어요. 리브스 감독의 개인 사정은 공개되지 않았으니, 팬들도 응원의 마음으로 지켜보면 좋겠어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Matt Reeves",
+        "Steven Soderbergh"
+      ],
+      "image_work": {
+        "kind": "movie",
+        "title": "The Batman Part II",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/news/steven-soderbergh-finish-batman-2-matt-reeves-stepped-away-1236913552/"
+        },
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/10/steven-soderbergh-the-batman-part-ii-1237158482/"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/the-batman-2-steven-soderbergh-replacing-matt-reeves-1236732936/"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/10/15/steven-soderbergh-the-batman-part-ii-matt-reeves-filming/"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Matt_Reeves_%2813949211144%29_CROPPED.jpg/1280px-Matt_Reeves_%2813949211144%29_CROPPED.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Matt_Reeves_(13949211144)_CROPPED.jpg",
+            "credit": "Photo: Gage Skidmore / CC BY-SA 2.0",
+            "note": "Gage Skidmore / CC BY-SA 2.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": false,
+            "file": "images/02a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/58th_Karlovy_Vary_International_Film_Festival%2C_Steven_Soderbergh_07_%28cropped%29.jpg/1280px-58th_Karlovy_Vary_International_Film_Festival%2C_Steven_Soderbergh_07_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:58th_Karlovy_Vary_International_Film_Festival,_Steven_Soderbergh_07_(cropped).jpg",
+            "credit": "Photo: Jan Beránek / CC BY-SA 4.0",
+            "note": "Jan Beránek / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/02b.jpg"
+          }
+        ],
+        "credit": "Photo: Gage Skidmore / CC BY-SA 2.0 · Jan Beránek / CC BY-SA 4.0",
+        "note": "Gage Skidmore / CC BY-SA 2.0 (위키미디어 공용, 일부 잘라서 사용) · Jan Beránek / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/02a.jpg",
+        "key": "[\"people\", [\"Matt Reeves\", \"Steven Soderbergh\"], {\"kind\": \"movie\", \"title\": \"The Batman Part II\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 4,
+      "category": "이슈",
+      "status": "확인됨",
+      "card_title": "넷플릭스 콘텐츠 수장이 바뀐다",
+      "points": [
+        "벨라 바자리아가 10년 만에 넷플릭스를 떠나요",
+        "후임은 전 디즈니·폭스 임원 피터 라이스예요",
+        "약 1,000명 감원 하루 만에 나온 소식이에요"
+      ],
+      "why_it_matters": "넷플릭스의 모든 드라마·영화·예능을 총괄하는 자리라, K-콘텐츠를 포함한 앞으로의 작품 전략에도 영향을 줄 수 있어요.",
+      "headline": "넷플릭스 최고콘텐츠책임자 교체… 피터 라이스 선임",
+      "body": "넷플릭스에 큰 인사 지각변동이 일어났어요. 2016년 입사해 예능 부문을 이끌다 2023년 1월부터 최고콘텐츠책임자(CCO)를 맡아 온 벨라 바자리아가 회사를 떠나요.\n\n넷플릭스는 곧바로 후임으로 디즈니·폭스 출신 임원 피터 라이스를 발표했어요. 데드라인에 따르면 라이스는 10월 26일부터 일을 시작하며, 대본 시리즈와 예능, 영화, 라이브 이벤트까지 넷플릭스 전체 콘텐츠를 총괄하게 돼요. 그는 월트 디즈니에서 회장직을 지낸 경력이 있어요.\n\n이번 발표는 넷플릭스가 약 1,000명을 감원한 지 불과 24시간 만에 나와 업계를 더 놀라게 했어요. 데드라인은 바자리아의 교체설이 이전부터 돌았다고 전했어요. 새 수장 체제에서 넷플릭스 콘텐츠 방향이 어떻게 바뀔지 지켜볼 만해요.",
+      "image_focus": "people",
+      "image_people": [
+        "Bela Bajaria",
+        "Peter Rice (executive)"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/news/netflix-bela-bajaria-leaving-layoffs-1236913504/"
+        },
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/10/netflix-peter-rice-chief-content-officer-1237158809/"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/news/general-news/bela-bajaria-out-netflix-1236733291/"
+        }
+      ],
+      "image": {
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter_Rice.jpg/1280px-Peter_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Peter_Rice.jpg",
+        "credit": "Photo: Monelisa / CC BY-SA 4.0",
+        "note": "Monelisa / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/03.jpg",
+        "key": "[\"people\", [\"Bela Bajaria\", \"Peter Rice (executive)\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 3,
+      "category": "영화",
+      "status": "확인됨",
+      "card_title": "제나 오르테가 \"폰 좀 내려놔요\"",
+      "points": [
+        "타이카 와이티티 신작 '클라라와 태양' 첫 공개",
+        "제나 오르테가 \"서로에게 집중하자\" 메시지 전해요",
+        "데드라인 리뷰는 \"묘하게 밋밋하다\"는 평이에요"
+      ],
+      "why_it_matters": "노벨문학상 작가 가즈오 이시구로 원작에 '웬즈데이' 제나 오르테가, 플로렌스 퓨까지 모여 기대가 컸던 작품이라 첫 반응이 주목받아요.",
+      "headline": "'클라라와 태양' 런던 첫 공개… 제나 오르테가의 메시지",
+      "body": "타이카 와이티티 감독의 신작 '클라라와 태양'이 런던영화제에서 월드 프리미어를 가졌어요. 가즈오 이시구로의 2021년 소설을 원작으로 한 디스토피아 SF 작품으로, 레드카펫에는 제나 오르테가와 플로렌스 퓨 등이 참석했어요.\n\n제나 오르테가는 버라이어티와의 레드카펫 인터뷰에서 AI와 기술에 몰두하는 시대에 이 영화가 사람들이 지금 이 순간을 살도록 일깨워 주길 바란다고 밝혔어요. 서로에게 집중하고 컴퓨터와 휴대폰을 내려놓자는 취지의 말이었어요.\n\n다만 첫 평가는 엇갈리는 분위기예요. 데드라인은 리뷰에서 이 작품을 '묘하게 밋밋한 디스토피아 코미디 드라마'라고 평가했어요. 와이티티 특유의 감성이 원작과 잘 맞을 거라는 기대가 컸던 만큼, 앞으로 나올 다른 반응도 궁금해져요.",
+      "image_focus": "people",
+      "image_people": [
+        "Jenna Ortega",
+        "Taika Waititi"
+      ],
+      "image_work": {
+        "kind": "movie",
+        "title": "Klara and the Sun (film)",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/festivals/jenna-ortega-klara-and-the-sun-put-down-phones-london-premiere-1236912808/"
+        },
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/10/klara-and-the-sun-review-taiki-waititi-jenna-ortega-amy-adams-1237158580/"
+        },
+        {
+          "name": "Page Six",
+          "url": "https://pagesix.com/2026/10/15/photos/klara-and-the-sun-red-carpet-photos-florence-pugh-jenna-ortega-and-more/"
+        }
+      ],
+      "image": {
+        "type": "photo",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Taika_Waititi_at_Venice_Film_Festival_2026-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Taika_Waititi_at_Venice_Film_Festival_2026-4.jpg",
+        "credit": "Photo: CaseyJNewell / CC BY-SA 4.0",
+        "note": "CaseyJNewell / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/04.jpg",
+        "key": "[\"people\", [\"Jenna Ortega\", \"Taika Waititi\"], {\"kind\": \"movie\", \"title\": \"Klara and the Sun (film)\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 5,
+      "category": "이슈",
+      "status": "확인됨",
+      "card_title": "52세 힐러리 스웽크의 셋째 소식",
+      "points": [
+        "힐러리 스웽크가 셋째 임신을 발표했어요",
+        "발표 다음 날 뉴욕에서 D라인을 공개했어요",
+        "남편 필립 슈나이더와의 세 번째 아이예요"
+      ],
+      "why_it_matters": "'밀리언 달러 베이비'로 오스카를 두 번 받은 배우가 52세에 셋째 임신 소식을 전해 많은 축하를 받고 있어요.",
+      "headline": "힐러리 스웽크, 셋째 임신 발표 후 첫 D라인 공개",
+      "body": "'밀리언 달러 베이비'로 잘 알려진 오스카 2회 수상 배우 힐러리 스웽크가 남편 필립 슈나이더와의 셋째 아이를 임신했다고 발표했어요. 52세에 전한 소식이라 더 큰 관심을 모았어요.\n\n E! 뉴스와 페이지 식스 등에 따르면 스웽크는 임신 발표 바로 다음 날 뉴욕에서 처음으로 공식 석상에 나서며 D라인을 드러냈어요. 팬들에게 반갑게 손을 흔드는 등 밝은 모습이었다고 전해졌어요.\n\n건강하고 행복해 보이는 근황에 팬들의 축하가 이어지고 있어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Hilary Swank"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Page Six",
+          "url": "https://pagesix.com/2026/10/15/celebrity-news/hilary-swank-52-debuts-bare-baby-bump-after-announcing-third-pregnancy/"
+        },
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1437138/pregnant-hilary-swank-debuts-baby-bump-in-nyc-outing-photo?cmpid=rss-syndicate-genericrss-us-top_stories"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/10/15/pregnant-hilary-swank-bares-baby-bump-in-first-appearance-since-announcing-shes-expecting-at-52/"
+        }
+      ],
+      "image": {
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Hilary_Swank_at_28th_Tokyo_International_Film_Festival.jpg/1280px-Hilary_Swank_at_28th_Tokyo_International_Film_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Hilary_Swank_at_28th_Tokyo_International_Film_Festival.jpg",
+        "credit": "Photo: Dick Thomas Johnson from Tokyo, Japan / CC BY 2.0",
+        "note": "Dick Thomas Johnson from Tokyo, Japan / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/05.jpg",
+        "key": "[\"people\", [\"Hilary Swank\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 9,
+      "category": "영화",
+      "status": "확인됨",
+      "card_title": "브렌든 프레이저 '미이라' 새 제목은",
+      "points": [
+        "새 '미이라' 제목은 '북 오브 더 데드'예요",
+        "브렌든 프레이저·레이첼 와이즈가 돌아와요",
+        "미국 개봉은 2027년 10월 15일 예정이에요"
+      ],
+      "why_it_matters": "한국에서도 큰 사랑을 받은 '미이라' 시리즈의 원조 주인공들이 다시 뭉치는 작품이라 추억 소환 기대가 커요.",
+      "headline": "'미이라' 원조 커플 귀환작, 제목은 '북 오브 더 데드'",
+      "body": "유니버설 픽처스가 브렌든 프레이저와 레이첼 와이즈가 주연으로 돌아오는 '미이라' 신작의 제목을 공개했어요. 제목은 '더 미이라: 북 오브 더 데드(The Mummy: Book of the Dead)'예요.\n\n할리우드 리포터에 따르면 원조 시리즈의 존 한나도 자신의 역할로 복귀해요. 연출은 공포 영화로 이름을 알린 감독 팀 '라디오 사일런스'의 맷 베티넬리-올핀과 타일러 길렛이 맡았어요. 미국 개봉일은 기존 계획대로 2027년 10월 15일이에요.\n\n오랜 팬들에게는 익숙한 얼굴들이 다시 모인다는 것만으로도 반가운 소식이에요. 한국 개봉 일정은 아직 알려지지 않았어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Brendan Fraser",
+        "Rachel Weisz"
+      ],
+      "image_work": {
+        "kind": "movie",
+        "title": "The Mummy: Book of the Dead",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/10/the-mummy-movie-title-brendan-fraser-rachel-weisz-1237158648/"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/the-mummy-brendan-fraser-sequel-new-title-2027-release-1236733141/"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Brendan_Fraser_MFF_2025.jpg/1280px-Brendan_Fraser_MFF_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Brendan_Fraser_MFF_2025.jpg",
+            "credit": "Photo: Montclair Film / CC BY 4.0",
+            "note": "Montclair Film / CC BY 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/06a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Rachel_Weisz-62940_%28cropped%29.jpg/1280px-Rachel_Weisz-62940_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Rachel_Weisz-62940_(cropped).jpg",
+            "credit": "Photo: Harald Krichel / CC BY-SA 4.0",
+            "note": "Harald Krichel / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/06b.jpg"
+          }
+        ],
+        "credit": "Photo: Montclair Film / CC BY 4.0 · Harald Krichel / CC BY-SA 4.0",
+        "note": "Montclair Film / CC BY 4.0 (위키미디어 공용, 일부 잘라서 사용) · Harald Krichel / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/06a.jpg",
+        "key": "[\"people\", [\"Brendan Fraser\", \"Rachel Weisz\"], {\"kind\": \"movie\", \"title\": \"The Mummy: Book of the Dead\", \"artist\": \"\"}]"
+      }
+    }
+  ],
+  "caption_hook": "'포스 윙' 바이올렛과 젠든, 드디어 얼굴이 생겼어요 🐉",
+  "hashtags": [
+    "포스윙",
+    "FourthWing",
+    "에스더맥그리거",
+    "더배트맨파트2",
+    "TheBatmanPartII",
+    "스티븐소더버그",
+    "넷플릭스",
+    "제나오르테가",
+    "JennaOrtega",
+    "클라라와태양",
+    "힐러리스웽크",
+    "미이라",
+    "BrendanFraser",
+    "할리우드뉴스",
+    "해외연예"
+  ],
+  "issue_date": "2026-10-16"
+}
