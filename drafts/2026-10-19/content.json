@@ -1,0 +1,316 @@
+{
+  "issue_title": "테일러 스위프트, 에라스 이후 첫 밴드 무대",
+  "intro": "안녕하세요, 이번 주 할리우드 소식을 전해드려요! 아카데미 뮤지엄 갈라에서 테일러 스위프트가 에라스 투어 이후 처음으로 풀밴드 공연을 했고, 같은 날 켄달 제너와 제이콥 엘로디는 처음으로 함께 모습을 드러냈어요. 빅토리아 시크릿 패션쇼 핑크 카펫, 조 맹가니엘로가 털어놓은 무산된 '배트맨' 비화, 런던 무대에서 이뤄진 '글리' 깜짝 재회까지 한 번에 정리했어요.",
+  "stories": [
+    {
+      "cluster_id": 1,
+      "category": "음악",
+      "status": "확인됨",
+      "card_title": "테일러, 오스카 갈라 무대를 접수",
+      "points": [
+        "아카데미 뮤지엄 갈라에서 4곡을 라이브로 불렀어요",
+        "에라스 투어 이후 첫 풀밴드 공연이에요",
+        "갈라는 1,400만 달러 넘는 기금을 모았어요"
+      ],
+      "why_it_matters": "오스카 캠페인의 주요 무대로 꼽히는 행사에서 에라스 투어 뒤 처음으로 밴드와 함께 선 공연이라 관심이 쏠렸어요",
+      "headline": "테일러 스위프트, 아카데미 갈라서 에라스 이후 첫 밴드 공연",
+      "body": "현지 시간 토요일 밤 LA에서 제6회 아카데미 뮤지엄 갈라가 열렸어요. 할리우드 리포터에 따르면 이 행사는 이제 오스카 캠페인의 주요 일정으로 자리 잡았고, 올해는 1,400만 달러가 넘는 기금을 모았다고 해요. 샤를리즈 테론, 콜맨 도밍고 등 많은 스타가 참석했어요.\n\n이날 가장 큰 화제는 테일러 스위프트의 무대였어요. 버라이어티 보도에 따르면 테일러는 네 곡을 불렀는데, 에라스 투어 이후 처음으로 풀밴드와 함께한 공연이었다고 해요. 소개는 코난 오브라이언이 맡았어요.\n\n객석도 화려했어요. 저스트 재러드가 공개한 현장 사진에는 사브리나 카펜터, 코너 스토리, 그리고 블랙핑크 로제의 모습도 담겼어요. 레딧에서는 커스텀 조르지오 아르마니를 입은 사브리나 카펜터, 생로랑을 입은 코너 스토리 등 패션 이야기가 이어졌어요. 테일러는 공연 다음 날 캔자스시티로 날아가 남편 트래비스 켈시의 치프스 경기까지 응원했다고 TMZ가 전했어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Taylor Swift",
+        "Rosé (singer)"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/taylor-swift-stars-academy-museum-gala-raise-14m-1236734684/"
+        },
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1437187/taylor-swift-performs-at-star-studded-academy-museum-gala-2026?cmpid=rss-syndicate-genericrss-us-top_stories"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/10/18/academy-museum-gala-2026-inside-photos-taylor-swift-rose/"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/1280px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png",
+            "credit": "Photo: iHeartRadioCA / CC BY 3.0",
+            "note": "iHeartRadioCA / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/01a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Blackpink_Ros%C3%A9_Rimowa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Blackpink_Ros%C3%A9_Rimowa_1.jpg",
+            "credit": "Photo: TV10 / CC BY 3.0",
+            "note": "TV10 / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/01b.jpg"
+          }
+        ],
+        "credit": "Photo: iHeartRadioCA / CC BY 3.0 · TV10 / CC BY 3.0",
+        "note": "iHeartRadioCA / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용) · TV10 / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/01a.jpg",
+        "key": "[\"people\", [\"Taylor Swift\", \"Rosé (singer)\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 2,
+      "category": "연애",
+      "status": "보도",
+      "card_title": "켄달♥제이콥 엘로디, 첫 동반 등장",
+      "points": [
+        "아카데미 뮤지엄 갈라에 함께 나타났어요",
+        "행사장 안에서 다정한 투샷을 남겼어요",
+        "그동안 관계를 철저히 비공개로 지켜왔어요"
+      ],
+      "why_it_matters": "조용히 만남을 이어온 두 사람이 큰 공식 행사에 함께 나서서 관계가 한 단계 나아갔다는 해석이 나오고 있어요",
+      "headline": "켄달 제너·제이콥 엘로디, 아카데미 갈라서 첫 동반 나들이",
+      "body": "켄달 제너와 영화 '프랑켄슈타인'의 제이콥 엘로디가 아카데미 뮤지엄 갈라에 함께 모습을 드러냈어요. 페이지 식스에 따르면 두 사람은 행사장 안에서 가깝게 붙어 사진을 찍었다고 해요.\n\nE! 뉴스는 두 사람이 그동안 막 시작된 관계를 무척 조용히 지켜왔다며, 이번 동반 등장을 관계의 큰 진전으로 봤어요. 다만 두 사람이 직접 관계를 공식적으로 밝힌 건 아니에요.\n\n이날 갈라에는 헌터 샤퍼, 다코타·엘르 패닝 자매, 에이셉 라키 등도 참석해 레딧 패션 게시판이 바쁘게 돌아갔어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Kendall Jenner",
+        "Jacob Elordi"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Page Six",
+          "url": "https://pagesix.com/2026/10/18/celebrity-news/kendall-jenner-jacob-elordi-cozy-up-at-academy-museum-gala/"
+        },
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1437205/kendall-jenner-jacob-elordi-attend-2026-academy-museum-gala?cmpid=rss-syndicate-genericrss-us-top_stories"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Kendall_Jenner_Venice_Film_Festival_2_%28cropped%29.jpg/1280px-Kendall_Jenner_Venice_Film_Festival_2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Kendall_Jenner_Venice_Film_Festival_2_(cropped).jpg",
+            "credit": "Photo: Colleen Sturtevant / CC BY-SA 4.0",
+            "note": "Colleen Sturtevant / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/02a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/JacobElordi-TIFF2025-01_%28cropped_2%29.png/1280px-JacobElordi-TIFF2025-01_%28cropped_2%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:JacobElordi-TIFF2025-01_(cropped_2).png",
+            "credit": "Photo: JoshPopov / CC BY 4.0",
+            "note": "JoshPopov / CC BY 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/02b.jpg"
+          }
+        ],
+        "credit": "Photo: Colleen Sturtevant / CC BY-SA 4.0 · JoshPopov / CC BY 4.0",
+        "note": "Colleen Sturtevant / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용) · JoshPopov / CC BY 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/02a.jpg",
+        "key": "[\"people\", [\"Kendall Jenner\", \"Jacob Elordi\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 7,
+      "category": "패션",
+      "status": "확인됨",
+      "card_title": "빅시 쇼 핑크 카펫, 누가 왔나",
+      "points": [
+        "2026 빅토리아 시크릿 쇼가 LA에서 열렸어요",
+        "메건 디 스탤리언이 공연자로 나섰어요",
+        "지지 하디드, 바바라 팔빈 등이 함께했어요"
+      ],
+      "why_it_matters": "매년 패션계 최대 이벤트로 꼽히는 쇼라 스타들의 핑크 카펫 룩과 무대에 전 세계의 시선이 쏠렸어요",
+      "headline": "2026 빅토리아 시크릿 패션쇼, 핑크 카펫에 스타 총출동",
+      "body": "2026 빅토리아 시크릿 패션쇼가 LA에서 생중계로 열렸어요. 페이지 식스와 E! 뉴스에 따르면 핑크 카펫에는 지지 하디드, 바바라 팔빈 등 많은 스타가 모였어요.\n\n이날 공연을 맡은 메건 디 스탤리언은 반짝이는 깊은 브이넥 드레스로 카펫에 섰다고 페이지 식스가 전했어요.\n\n쇼에 맞춰 역대 엔젤들을 돌아보는 기사도 쏟아졌어요. E! 뉴스는 지지 하디드가 처음 쇼에 서기까지 두세 번이나 오디션을 봤다는 일화를 다시 소개했어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Gigi Hadid",
+        "Megan Thee Stallion"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Page Six",
+          "url": "https://pagesix.com/2026/10/18/photos/victorias-secret-fashion-show-2026-red-carpet-see-all-the-celebrity-looks/"
+        },
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1437170/victorias-secret-fashion-show-2026-all-the-celebs?cmpid=rss-syndicate-genericrss-us-top_stories"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/10/18/how-to-watch-victorias-secret-fashion-show-2026-live-stream-start-time-revealed/"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_%28Gigi_Hadid%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_(Gigi_Hadid).jpg",
+            "credit": "Photo: Manuela Muniz Feijó Scarpa / CC BY-SA 4.0",
+            "note": "Manuela Muniz Feijó Scarpa / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/04a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Megan_Thee_Stallion_Adweek_pose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Megan_Thee_Stallion_Adweek_pose.jpg",
+            "credit": "Photo: Adweek / CC BY 3.0",
+            "note": "Adweek / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/04b.jpg"
+          }
+        ],
+        "credit": "Photo: Manuela Muniz Feijó Scarpa / CC BY-SA 4.0 · Adweek / CC BY 3.0",
+        "note": "Manuela Muniz Feijó Scarpa / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용) · Adweek / CC BY 3.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/04a.jpg",
+        "key": "[\"people\", [\"Gigi Hadid\", \"Megan Thee Stallion\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 33,
+      "category": "영화",
+      "status": "확인됨",
+      "card_title": "무산된 벤 애플렉 배트맨, 줄거리 공개",
+      "points": [
+        "조 맹가니엘로가 회고록에서 비화를 밝혔어요",
+        "데스스트로크가 배트맨의 삶을 무너뜨릴 계획이었어요",
+        "고든 국장이 죽는 전개도 있었대요"
+      ],
+      "why_it_matters": "팬들이 오래 궁금해한 벤 애플렉 단독 배트맨 영화의 구체적인 줄거리가 출연 예정 배우의 입으로 처음 공개됐어요",
+      "headline": "조 맹가니엘로, 무산된 벤 애플렉 '배트맨' 줄거리 털어놨어요",
+      "body": "벤 애플렉이 각본·연출·제작을 맡을 예정이었다가 무산된 배트맨 단독 영화의 이야기가 공개됐어요. 이 영화에서 빌런 데스스트로크를 다시 연기할 예정이었던 조 맹가니엘로가 새 회고록 'Bloodlines'에 내용을 담았어요.\n\n버라이어티에 따르면 맹가니엘로는 회고록에서 데스스트로크가 배트맨의 삶 전체를 무너뜨리고 고든 국장까지 죽이는 전개였다고 밝혔어요.\n\n애플렉의 배트맨은 끝내 단독 영화로 나오지 못해서, 팬들 사이에서는 지금도 아쉬움이 큰 프로젝트예요.",
+      "image_focus": "people",
+      "image_people": [
+        "Joe Manganiello",
+        "Ben Affleck"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/news/joe-manganiello-ben-afflecks-batman-film-deathstroke-1236915997/"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Joe_Manganiello_by_Gage_Skidmore_2.jpg/1280px-Joe_Manganiello_by_Gage_Skidmore_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Joe_Manganiello_by_Gage_Skidmore_2.jpg",
+            "credit": "Photo: Gage Skidmore / CC BY-SA 3.0",
+            "note": "Gage Skidmore / CC BY-SA 3.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/05a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ben_Affleck_at_83rd_Venice_International_Film_Festival-1_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Ben_Affleck_at_83rd_Venice_International_Film_Festival-1_(cropped).jpg",
+            "credit": "Photo: LucaFazPhoto / CC BY-SA 4.0",
+            "note": "LucaFazPhoto / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/05b.jpg"
+          }
+        ],
+        "credit": "Photo: Gage Skidmore / CC BY-SA 3.0 · LucaFazPhoto / CC BY-SA 4.0",
+        "note": "Gage Skidmore / CC BY-SA 3.0 (위키미디어 공용, 일부 잘라서 사용) · LucaFazPhoto / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/05a.jpg",
+        "key": "[\"people\", [\"Joe Manganiello\", \"Ben Affleck\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 32,
+      "category": "드라마",
+      "status": "확인됨",
+      "card_title": "'글리' 커트와 블레인이 다시 만났어요",
+      "points": [
+        "대런 크리스 런던 공연에 크리스 콜퍼가 등장했어요",
+        "'Baby It's Cold Outside'를 함께 불렀어요",
+        "극 중 커트와 블레인을 기리는 무대였어요"
+      ],
+      "why_it_matters": "'글리'의 대표 커플 커트와 블레인을 연기한 두 배우가 무대에서 다시 만나 추억 속 장면을 재현했어요",
+      "headline": "대런 크리스·크리스 콜퍼, 런던 무대서 '글리' 깜짝 재회",
+      "body": "대런 크리스가 런던 로열 앨버트 홀에서 단 하루 콘서트를 열었는데, 이 무대가 '글리' 재회의 장이 됐어요. 버라이어티에 따르면 크리스는 깜짝 게스트로 크리스 콜퍼를 무대에 불렀어요.\n\n두 사람은 'Baby It's Cold Outside'를 함께 불렀어요. 극 중 두 사람이 연기한 커트 허멜과 블레인 앤더슨을 기리는 무대였어요. 크리스가 혼자 노래를 시작한 뒤 콜퍼가 등장하는 깜짝 연출이었다고 해요.",
+      "image_focus": "people",
+      "image_people": [
+        "Darren Criss",
+        "Chris Colfer"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/tv/news/glee-reunion-chris-colfer-darren-criss-perform-duet-1236916050/"
+        }
+      ],
+      "image": {
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Chris_Colfer_%26_Darren_Criss_%285864813051%29.jpg/1280px-Chris_Colfer_%26_Darren_Criss_%285864813051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Chris_Colfer_%26_Darren_Criss_(5864813051).jpg",
+        "credit": "Photo: vagueonthehow from Tadcaster, York, England / CC BY 2.0",
+        "note": "vagueonthehow from Tadcaster, York, England / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": false,
+        "file": "images/06.jpg",
+        "key": "[\"people\", [\"Darren Criss\", \"Chris Colfer\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    }
+  ],
+  "caption_hook": "에라스 투어 끝나고 처음으로 테일러 스위프트가 밴드랑 다시 무대에 섰어요 🎤",
+  "hashtags": [
+    "테일러스위프트",
+    "TaylorSwift",
+    "아카데미뮤지엄갈라",
+    "켄달제너",
+    "제이콥엘로디",
+    "KendallJenner",
+    "JacobElordi",
+    "빅토리아시크릿패션쇼",
+    "VictoriasSecretFashionShow",
+    "메건디스탤리언",
+    "조맹가니엘로",
+    "벤애플렉배트맨",
+    "글리",
+    "Glee",
+    "할리우드소식"
+  ],
+  "issue_date": "2026-10-19",
+  "dropped": [
+    "3시간짜리 다큐에 매진 2천 회?"
+  ]
+}
