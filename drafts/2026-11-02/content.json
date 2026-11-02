@@ -1,0 +1,290 @@
+{
+  "issue_title": "로다주×파스칼, 할로윈에 MCU 배역 맞바꿨어요",
+  "intro": "안녕하세요, 할로윈 주말이 지나고 새 소식을 들고 왔어요! 이번 호에서는 로다주와 페드로 파스칼이 할로윈에 MCU 배역을 맞바꾼 이야기, 노숙인 분장 사진으로 논란이 된 마사 스튜어트의 입장, 사격장에서 다쳤지만 '히트 2' 촬영엔 지장이 없다고 알려진 마이클 만 감독 소식을 전해요. 로버트 패틴슨과의 비밀 결혼설을 직접 부인한 수키 워터하우스, 20년 만에 처음으로 빌보드200 1위에 오른 마이 케미컬 로맨스 소식도 함께 담았어요.",
+  "stories": [
+    {
+      "cluster_id": 4,
+      "category": "영화",
+      "status": "확인됨",
+      "card_title": "로다주가 판타스틱이 됐다고?",
+      "points": [
+        "로다주·페드로 파스칼, 할로윈에 배역 맞바꿔요",
+        "로다주는 미스터 판타스틱, 파스칼은 닥터 둠",
+        "'어벤져스: 둠스데이'는 12월 18일 개봉해요"
+      ],
+      "why_it_matters": "아이언맨 로다주가 '둠스데이'에서 악당 닥터 둠으로 돌아와 화제인데, 개봉을 앞두고 주연 둘이 역할을 바꾼 코스튬으로 팬서비스를 했어요.",
+      "headline": "로다주×페드로 파스칼, 할로윈에 MCU 배역 맞바꿨어요",
+      "body": "'어벤져스: 둠스데이' 개봉이 두 달도 안 남은 가운데, 로버트 다우니 주니어와 페드로 파스칼이 할로윈을 맞아 특별한 커플 코스튬을 선보였어요. 서로의 MCU 배역을 바꿔 입은 거예요.\n\n로다주는 파스칼이 맡은 미스터 판타스틱으로, 파스칼은 로다주가 연기하는 닥터 둠으로 변신했어요. 두 사람은 \"코스튬 스왑!\"이라는 말과 함께 사진을 공개했어요.\n\n아이언맨으로 사랑받던 로다주가 이번엔 마블의 대표 악당 닥터 둠으로 돌아온다는 사실만으로도 큰 관심을 받아 온 작품이라, 레딧에서도 관련 글이 여러 개 올라오며 반응이 뜨거웠어요. '어벤져스: 둠스데이'는 12월 18일 극장 개봉 예정이에요.",
+      "image_focus": "people",
+      "image_people": [
+        "Robert Downey Jr.",
+        "Pedro Pascal"
+      ],
+      "image_work": {
+        "kind": "movie",
+        "title": "Avengers: Doomsday",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/10/robert-downey-jr-pedro-pascal-mcu-role-reversal-halloween-1237210827/"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/11/01/robert-downey-jr-pedro-pascal-swap-avengers-doomsday-characters-for-halloween/"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/1280px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:RobertDowneyJr-byPhilipRomano7_(cropped).jpg",
+            "credit": "Photo: PhilipRomano / CC BY-SA 4.0",
+            "note": "PhilipRomano / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/01a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg/1280px-Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg",
+            "credit": "Photo: Bryan Berlin / CC BY-SA 4.0",
+            "note": "Bryan Berlin / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/01b.jpg"
+          }
+        ],
+        "credit": "Photo: PhilipRomano / CC BY-SA 4.0 · Bryan Berlin / CC BY-SA 4.0",
+        "note": "PhilipRomano / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용) · Bryan Berlin / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/01a.jpg",
+        "key": "[\"people\", [\"Robert Downey Jr.\", \"Pedro Pascal\"], {\"kind\": \"movie\", \"title\": \"Avengers: Doomsday\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 1,
+      "category": "이슈",
+      "status": "확인됨",
+      "card_title": "마사 스튜어트, 사과는 안 했다?",
+      "points": [
+        "노숙인 분장 할로윈 사진 올렸다 삭제했어요",
+        "\"괴롭다\", \"의도는 아니었다\"며 입장 밝혀요",
+        "일부 매체는 사과까지는 아니었다고 지적해요"
+      ],
+      "why_it_matters": "미국 '살림의 여왕'으로 불리는 85세 기업인이 노숙인을 희화화했다는 비판을 받으며 5개 매체가 동시에 다룬 논란이 됐어요.",
+      "headline": "마사 스튜어트, 노숙인 코스튬 논란에 \"괴롭다\"",
+      "body": "미국의 라이프스타일 아이콘 마사 스튜어트(85)가 할로윈 코스튬으로 논란에 휩싸였어요. 10월 31일 SNS에 노숙인으로 분장한 사진을 올렸다가 곧 삭제했는데요. 사진 속 그는 찢어진 옷에 얼굴에는 흙을 묻히고, \"배고파요 도와주세요!!\"라고 적힌 클립보드를 들고 있었어요.\n\n노숙인을 조롱했다는 비판이 쏟아지자, 스튜어트는 TMZ에 보낸 입장문에서 사람들이 불쾌감을 느낀 데 대해 \"괴롭다\"고 밝혔어요. 할리우드 리포터 보도에 따르면 그는 \"결코 내 의도가 아니었다\"며, 코스튬은 오히려 문제에 대한 인식을 높이려는 뜻이었다고 설명했어요.\n\n다만 반응은 엇갈려요. E! 뉴스는 그가 후회의 뜻을 전했다고 보도한 반면, 페이지 식스는 정식 사과까지는 하지 않았다고 짚었어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Martha Stewart"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "TMZ",
+          "url": "https://www.tmz.com/2026/11/01/martha-stewart-responds-to-halloween-costume-backlash/"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/news/general-news/martha-stewart-responds-backlash-halloween-costume-homeless-1236745531/"
+        },
+        {
+          "name": "Page Six",
+          "url": "https://pagesix.com/2026/11/01/celebrity-news/martha-stewart-addresses-backlash-over-homeless-halloween-costume-but-stops-short-of-apologizing/"
+        },
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1437706/martha-stewart-distressed-over-homeless-halloween-costume-backlash?cmpid=rss-syndicate-genericrss-us-top_stories"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/11/01/martha-stewart-responds-to-backlash-over-offensive-halloween-costume/"
+        }
+      ],
+      "image": {
+        "type": "photo",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Martha_Stewart_%2848926315347%29_%28cropped%29.jpg/1280px-Martha_Stewart_%2848926315347%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Martha_Stewart_(48926315347)_(cropped).jpg",
+        "credit": "Photo: Gage Skidmore from Peoria, AZ, United States of America / CC BY-SA 2.0",
+        "note": "Gage Skidmore from Peoria, AZ, United States of America / CC BY-SA 2.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/02.jpg",
+        "key": "[\"people\", [\"Martha Stewart\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 3,
+      "category": "영화",
+      "status": "보도",
+      "card_title": "'히트' 감독에게 무슨 일이?",
+      "points": [
+        "마이클 만 감독, 사격장서 총기 오발로 부상",
+        "가벼운 부상으로 치료 후 퇴원 중이라고 해요",
+        "1월 '히트 2' 촬영엔 영향 없다고 알려졌어요"
+      ],
+      "why_it_matters": "'히트', '콜래트럴'의 거장이 30년 만의 속편 '히트 2' 연출을 앞두고 사고를 당해 영화 팬들이 깜짝 놀랐어요.",
+      "headline": "마이클 만 감독, LA 사격장서 총기 오발 사고",
+      "body": "영화 '히트'로 유명한 마이클 만 감독(83)이 LA의 한 사격장에서 사고를 당했어요. 데드라인 보도에 따르면 토요일 사격 연습 도중, 홀스터에 꽂혀 있던 총기가 실수로 발사되면서 가벼운 부상을 입었다고 해요.\n\n페이지 식스는 사고 장소가 '레인지 LA'였다고 전했고, 레딧에서는 다리에 부상을 입었다는 보도가 공유됐어요. 만 감독은 치료를 받은 뒤 퇴원 절차를 밟는 것으로 알려졌어요.\n\n만 감독은 1월부터 '히트 2' 연출에 들어갈 예정인데요. 데드라인이 감독 측근에게 단독으로 확인한 바에 따르면, 이번 사고가 촬영 일정에는 영향을 주지 않을 거라고 해요.",
+      "image_focus": "people",
+      "image_people": [
+        "Michael Mann"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/11/michael-mann-injured-weapon-discharges-filmmaker-ok-1237210846/"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/news/general-news/michael-mann-accidentally-shoots-himself-l-a-gun-range-1236744347/"
+        },
+        {
+          "name": "Page Six",
+          "url": "https://pagesix.com/2026/11/01/celebrity-news/michael-mann-hospitalized-after-shooting-himself-at-gun-range/"
+        }
+      ],
+      "image": {
+        "type": "photo",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Michael_Mann_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Michael_Mann_in_2023.jpg",
+        "credit": "Photo: Raph_PH / CC BY 2.0",
+        "note": "Raph_PH / CC BY 2.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "portrait": true,
+        "file": "images/03.jpg",
+        "key": "[\"people\", [\"Michael Mann\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 11,
+      "category": "연애",
+      "status": "확인됨",
+      "card_title": "로버트 패틴슨, 결혼 했어 안 했어?",
+      "points": [
+        "패틴슨 비밀 결혼설, 수키가 직접 부인해요",
+        "\"아직 아내는 아니에요\"라는 입장이에요",
+        "대신 '성대한' 결혼식을 예고했어요"
+      ],
+      "why_it_matters": "'트와일라잇'·'더 배트맨' 스타 패틴슨이 올해 이미 결혼한 듯한 뉘앙스를 풍겨 비밀 결혼설이 돌았는데, 약혼녀가 직접 정리했어요.",
+      "headline": "수키 워터하우스, 패틴슨과 비밀 결혼설 부인",
+      "body": "로버트 패틴슨과 약혼한 가수 겸 배우 수키 워터하우스(34)가 비밀 결혼설에 직접 답했어요. 패틴슨이 올해 초 이미 결혼한 것처럼 암시하는 발언을 하면서 두 사람이 몰래 식을 올렸다는 소문이 돌았거든요.\n\n저스트 재러드 보도에 따르면 워터하우스는 아직 아내가 된 건 아니라며 결혼설을 일축했어요. 페이지 식스는 그가 대신 '성대한' 결혼식을 계획하고 있다고 밝혔다고 전했어요.\n\n오랜 연인에서 약혼자가 된 두 사람의 결혼식이 언제, 어떤 모습일지 팬들의 기대가 커지고 있어요.",
+      "image_focus": "people",
+      "image_people": [
+        "Robert Pattinson",
+        "Suki Waterhouse"
+      ],
+      "image_work": {
+        "kind": "none",
+        "title": "",
+        "artist": ""
+      },
+      "sources": [
+        {
+          "name": "Page Six",
+          "url": "https://pagesix.com/2026/11/01/celebrity-news/suki-waterhouse-reveals-plans-for-massive-wedding-with-robert-pattinson-amid-secret-marriage-rumors/"
+        },
+        {
+          "name": "Just Jared",
+          "url": "https://www.justjared.com/2026/11/01/suki-waterhouse-shuts-down-robert-pattinson-marriage-rumors-teases-massive-wedding/"
+        }
+      ],
+      "image": {
+        "type": "pair",
+        "items": [
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Robert_Pattinson_Venice_Film_Festival_%28cropped%29.jpg/1280px-Robert_Pattinson_Venice_Film_Festival_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Robert_Pattinson_Venice_Film_Festival_(cropped).jpg",
+            "credit": "Photo: Colleen Sturtevant / CC BY-SA 4.0",
+            "note": "Colleen Sturtevant / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/04a.jpg"
+          },
+          {
+            "type": "photo",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg/1280px-Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg",
+            "credit": "Photo: LucaFazPhoto / CC BY-SA 4.0",
+            "note": "LucaFazPhoto / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+            "portrait": true,
+            "file": "images/04b.jpg"
+          }
+        ],
+        "credit": "Photo: Colleen Sturtevant / CC BY-SA 4.0 · LucaFazPhoto / CC BY-SA 4.0",
+        "note": "Colleen Sturtevant / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용) · LucaFazPhoto / CC BY-SA 4.0 (위키미디어 공용, 일부 잘라서 사용)",
+        "file": "images/04a.jpg",
+        "key": "[\"people\", [\"Robert Pattinson\", \"Suki Waterhouse\"], {\"kind\": \"none\", \"title\": \"\", \"artist\": \"\"}]"
+      }
+    },
+    {
+      "cluster_id": 40,
+      "category": "음악",
+      "status": "확인됨",
+      "card_title": "20년 걸린 첫 1위, 이 앨범이요",
+      "points": [
+        "마이 케미컬 로맨스 '더 블랙 퍼레이드' 1위",
+        "빌보드200 139위에서 단숨에 정상으로",
+        "디럭스 재발매로 7만8천 장 상당 기록해요"
+      ],
+      "why_it_matters": "2000년대 이모 록을 대표하는 명반이 발매 20년 만에 밴드 최초의 빌보드 200 1위라는 기록을 세웠어요.",
+      "headline": "마이 케미컬 로맨스, 20년 만에 첫 빌보드 1위",
+      "body": "마이 케미컬 로맨스가 데뷔 이래 처음으로 빌보드 200 1위에 올랐어요. 주인공은 새 앨범이 아니라 2006년 발매된 대표작 '더 블랙 퍼레이드'예요.\n\n버라이어티에 따르면 이 앨범은 디럭스 재발매에 힘입어 7만8천 장 상당의 판매량을 기록하며 139위에서 단숨에 정상으로 뛰어올랐어요.\n\n발매 당시에도 1위를 하지 못했던 앨범이 20년 만에 정상을 밟으면서, 오랜 팬들 사이에서는 '역주행의 끝판왕'이라는 반응이 나올 만해요.",
+      "image_focus": "work",
+      "image_people": [
+        "My Chemical Romance"
+      ],
+      "image_work": {
+        "kind": "album",
+        "title": "The Black Parade",
+        "artist": "My Chemical Romance"
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/music/news/my-chemical-romance-scores-first-no-1-with-the-black-parade-1236936933/"
+        }
+      ],
+      "image": {
+        "type": "artwork",
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/ac/69/7eac6998-7fa4-f1ab-9601-e8b791c736fa/mzi.fbpszunc.jpg/1200x1200bb.jpg",
+        "page": "https://music.apple.com/us/album/the-black-parade/209388277?uo=4",
+        "credit": "앨범 커버 ℗ 2006 Reprise Records for the U.S. and WEA International Inc. for the world outside the U.S.",
+        "note": "앨범 커버 'The Black Parade' (℗ 2006 Reprise Records for the U.S. and WEA International Inc. for the world outside the U.S.), 보도·비평 목적 인용",
+        "file": "images/06.jpg",
+        "key": "[\"work\", [\"My Chemical Romance\"], {\"kind\": \"album\", \"title\": \"The Black Parade\", \"artist\": \"My Chemical Romance\"}]"
+      }
+    }
+  ],
+  "caption_hook": "닥터 둠이 미스터 판타스틱이 됐다고요? 로다주와 페드로 파스칼이 할로윈에 배역을 맞바꿨어요 🎃",
+  "hashtags": [
+    "로버트다우니주니어",
+    "RobertDowneyJr",
+    "페드로파스칼",
+    "PedroPascal",
+    "어벤져스둠스데이",
+    "AvengersDoomsday",
+    "마사스튜어트",
+    "MarthaStewart",
+    "마이클만",
+    "히트2",
+    "수키워터하우스",
+    "로버트패틴슨",
+    "마이케미컬로맨스",
+    "MyChemicalRomance",
+    "할리우드소식"
+  ],
+  "issue_date": "2026-11-02",
+  "dropped": [
+    "'크리미널 마인드' 진짜 끝나요"
+  ]
+}
